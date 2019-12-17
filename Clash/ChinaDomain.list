@@ -107,6 +107,8 @@ DOMAIN-SUFFIX,sogou.com
 DOMAIN-SUFFIX,sogoucdn.com
 DOMAIN-SUFFIX,sohu.com
 DOMAIN-SUFFIX,sohucs.com
+DOMAIN-SUFFIX,sohuno.com
+DOMAIN-SUFFIX,sohurdc.com
 # Tencent
 DOMAIN-SUFFIX,gtimg.cn
 DOMAIN-SUFFIX,gtimg.com
@@ -166,6 +168,7 @@ DOMAIN-SUFFIX,biqudu.com
 DOMAIN-SUFFIX,biquge.com
 DOMAIN-SUFFIX,bitauto.com
 DOMAIN-SUFFIX,bootcss.com
+DOMAIN-SUFFIX,c-ctrip.com
 DOMAIN-SUFFIX,chinacache.net
 DOMAIN-SUFFIX,chinaso.com
 DOMAIN-SUFFIX,chinaz.com
@@ -178,7 +181,10 @@ DOMAIN-SUFFIX,cnbeta.com
 DOMAIN-SUFFIX,cnbetacdn.com
 DOMAIN-SUFFIX,coolapk.com
 DOMAIN-SUFFIX,coolapkmarket.com
+DOMAIN-SUFFIX,csdn.net
+DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,dangdang.com
+DOMAIN-SUFFIX,dfcfw.com
 DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,dilidili.wang
 DOMAIN-SUFFIX,douban.com
@@ -233,9 +239,13 @@ DOMAIN-SUFFIX,kankan.com
 DOMAIN-SUFFIX,kaola.com
 DOMAIN-SUFFIX,knewone.com
 DOMAIN-SUFFIX,kuaidi100.com
+DOMAIN-SUFFIX,lancdns.com
+DOMAIN-SUFFIX,landiannews.com
+DOMAIN-SUFFIX,laomo.me
 DOMAIN-SUFFIX,le.com
 DOMAIN-SUFFIX,lecloud.com
 DOMAIN-SUFFIX,lemicp.com
+DOMAIN-SUFFIX,letitfly.me
 DOMAIN-SUFFIX,letv.cn
 DOMAIN-SUFFIX,letv.com
 DOMAIN-SUFFIX,letvcloud.com
@@ -254,10 +264,13 @@ DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,mobike.com
 DOMAIN-SUFFIX,moji.com
 DOMAIN-SUFFIX,moke.com
+DOMAIN-SUFFIX,mpyit.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,myunlu.com
 DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,nruan.com
 DOMAIN-SUFFIX,nuomi.com
+DOMAIN-SUFFIX,oschina.net
 DOMAIN-SUFFIX,ourdvs.com
 DOMAIN-SUFFIX,overcast.fm
 DOMAIN-SUFFIX,pptv.com
@@ -304,11 +317,13 @@ DOMAIN-SUFFIX,suning.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,th-sjy.com
 DOMAIN-SUFFIX,tianyancha.com
 DOMAIN-SUFFIX,tietuku.com
 DOMAIN-SUFFIX,tiexue.net
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,tmiaoo.com
+DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,ttmeiju.com
 DOMAIN-SUFFIX,tudou.com
 DOMAIN-SUFFIX,tuniu.com
@@ -349,6 +364,7 @@ DOMAIN-SUFFIX,yixia.com
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youdao.com
 DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,ys168.com
 DOMAIN-SUFFIX,yunjiasu-cdn.net
 DOMAIN-SUFFIX,yy.com
 DOMAIN-SUFFIX,zdfans.com

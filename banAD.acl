@@ -1605,6 +1605,8 @@
 (^|\.)sogoucdn\.com$
 (^|\.)sohu\.com$
 (^|\.)sohucs\.com$
+(^|\.)sohuno\.com$
+(^|\.)sohurdc\.com$
 
 # Tencent
 (^|\.)gtimg\.cn$
@@ -1668,6 +1670,7 @@
 (^|\.)biquge\.com$
 (^|\.)bitauto\.com$
 (^|\.)bootcss\.com$
+(^|\.)c-ctrip\.com$
 (^|\.)chinacache\.net$
 (^|\.)chinaso\.com$
 (^|\.)chinaz\.com$
@@ -1680,7 +1683,10 @@
 (^|\.)cnbetacdn\.com$
 (^|\.)coolapk\.com$
 (^|\.)coolapkmarket\.com$
+(^|\.)csdn\.net$
+(^|\.)ctrip\.com$
 (^|\.)dangdang\.com$
+(^|\.)dfcfw\.com$
 (^|\.)dianping\.com$
 (^|\.)dilidili\.wang$
 (^|\.)douban\.com$
@@ -1735,9 +1741,13 @@
 (^|\.)kaola\.com$
 (^|\.)knewone\.com$
 (^|\.)kuaidi100\.com$
+(^|\.)lancdns\.com$
+(^|\.)landiannews\.com$
+(^|\.)laomo\.me$
 (^|\.)le\.com$
 (^|\.)lecloud\.com$
 (^|\.)lemicp\.com$
+(^|\.)letitfly\.me$
 (^|\.)letv\.cn$
 (^|\.)letv\.com$
 (^|\.)letvcloud\.com$
@@ -1756,10 +1766,13 @@
 (^|\.)mobike\.com$
 (^|\.)moji\.com$
 (^|\.)moke\.com$
+(^|\.)mpyit\.com$
 (^|\.)myqcloud\.com$
 (^|\.)myunlu\.com$
 (^|\.)netease\.com$
+(^|\.)nruan\.com$
 (^|\.)nuomi\.com$
+(^|\.)oschina\.net$
 (^|\.)ourdvs\.com$
 (^|\.)overcast\.fm$
 (^|\.)pptv\.com$
@@ -1806,11 +1819,13 @@
 (^|\.)taobao\.com$
 (^|\.)tencent\.com$
 (^|\.)tenpay\.com$
+(^|\.)th-sjy\.com$
 (^|\.)tianyancha\.com$
 (^|\.)tietuku\.com$
 (^|\.)tiexue\.net$
 (^|\.)tmall\.com$
 (^|\.)tmiaoo\.com$
+(^|\.)trip\.com$
 (^|\.)ttmeiju\.com$
 (^|\.)tudou\.com$
 (^|\.)tuniu\.com$
@@ -1851,6 +1866,7 @@
 (^|\.)ykimg\.com$
 (^|\.)youdao\.com$
 (^|\.)youku\.com$
+(^|\.)ys168\.com$
 (^|\.)yunjiasu-cdn\.net$
 (^|\.)yy\.com$
 (^|\.)zdfans\.com$
