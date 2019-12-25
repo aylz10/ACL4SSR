@@ -1,4 +1,10 @@
 # 直连列表
+# MyList
+DOMAIN-SUFFIX,423down.com
+DOMAIN-SUFFIX,mpyit.com
+DOMAIN-SUFFIX,laomo.me
+DOMAIN-SUFFIX,hrtsea.com
+DOMAIN-SUFFIX,inoreader.com
 # CN域名直连
 DOMAIN-SUFFIX,edu.cn
 DOMAIN-SUFFIX,gov.cn
@@ -78,6 +84,9 @@ DOMAIN-SUFFIX,baidupcs.com
 DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,hao123.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,jomodns.com
+DOMAIN-SUFFIX,iqiyipic.com
 # Epic
 DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,helpshift.com
@@ -134,6 +143,7 @@ DOMAIN-SUFFIX,qqmail.com
 DOMAIN-SUFFIX,qtimg.cn
 DOMAIN-SUFFIX,smtcdns.com
 DOMAIN-SUFFIX,soso.com
+DOMAIN-SUFFIX,tencentmind.com
 DOMAIN-SUFFIX,weixin.com
 # ToutiaoBytedance
 DOMAIN-SUFFIX,bytecdn.cn
@@ -238,7 +248,6 @@ DOMAIN-SUFFIX,images-amazon.com
 DOMAIN-SUFFIX,infzm.com
 DOMAIN-SUFFIX,ip.cn
 DOMAIN-SUFFIX,ipip.net
-DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,it168.com
 DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,ixdzs.com
@@ -279,7 +288,7 @@ DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,mobike.com
 DOMAIN-SUFFIX,moji.com
 DOMAIN-SUFFIX,moke.com
-DOMAIN-SUFFIX,mpyit.com
+DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,myunlu.com
 DOMAIN-SUFFIX,netease.com
