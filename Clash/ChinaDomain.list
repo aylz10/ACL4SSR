@@ -27,11 +27,14 @@ DOMAIN-KEYWORD,duobao
 DOMAIN-KEYWORD,duolingo
 DOMAIN-KEYWORD,jdpay
 DOMAIN-KEYWORD,moke
+DOMAIN-KEYWORD,qhimg
 DOMAIN-KEYWORD,xiami
 DOMAIN-KEYWORD,xiaomi
 # 360
 DOMAIN-SUFFIX,360.cn
-DOMAIN-SUFFIX,qhimg.com
+DOMAIN-SUFFIX,360kuai.com
+DOMAIN-SUFFIX,qhres.com
+DOMAIN-SUFFIX,qhstatic.com
 # Alibaba
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alibabacloud.com
@@ -81,12 +84,13 @@ DOMAIN-SUFFIX,blizzard.com
 # Baidu
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baidupcs.com
+DOMAIN-SUFFIX,baidustatic.com
 DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,jomodns.com
 DOMAIN-SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,jomodns.com
 # Epic
 DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,helpshift.com
