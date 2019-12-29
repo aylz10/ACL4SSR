@@ -81,20 +81,6 @@ DOMAIN-SUFFIX,xiami.net
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youku.com
 
-# Apple
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,akadns.net
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
-
 # Baidu
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baidubcr.com
@@ -532,20 +518,3 @@ DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zhongsou.com
 DOMAIN-SUFFIX,zhuihd.com
-
-# 本地/局域网地址
-DOMAIN-SUFFIX,localhost
-IP-CIDR,0.0.0.0/8,no-resolve
-IP-CIDR,10.0.0.0/8,no-resolve
-IP-CIDR,100.64.0.0/10,no-resolve
-IP-CIDR,127.0.0.0/8,no-resolve
-IP-CIDR,169.254.0.0/16,no-resolve
-IP-CIDR,172.16.0.0/12,no-resolve
-IP-CIDR,192.0.0.0/29,no-resolve
-IP-CIDR,192.0.2.0/24,no-resolve
-IP-CIDR,192.88.99.0/24,no-resolve
-IP-CIDR,192.168.0.0/16,no-resolve
-IP-CIDR,198.18.0.0/15,no-resolve
-IP-CIDR,198.51.100.0/24,no-resolve
-IP-CIDR,203.0.113.0/24,no-resolve
-IP-CIDR,224.0.0.0/3,no-resolve
