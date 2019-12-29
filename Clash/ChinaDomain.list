@@ -38,6 +38,7 @@ DOMAIN-SUFFIX,360kuai.com
 DOMAIN-SUFFIX,360safe.com
 DOMAIN-SUFFIX,qhres.com
 DOMAIN-SUFFIX,qhstatic.com
+DOMAIN-SUFFIX,so.com
 
 # 4399
 DOMAIN-SUFFIX,4399.com
@@ -286,22 +287,26 @@ DOMAIN-SUFFIX,tencentmind.com
 DOMAIN-SUFFIX,weixin.com
 DOMAIN-SUFFIX,weiyun.com
 
-# Vip
+# Vip 唯品会
 DOMAIN-SUFFIX,appsimg.com
 DOMAIN-SUFFIX,appvipshop.com
 DOMAIN-SUFFIX,vip.com
 DOMAIN-SUFFIX,vipstatic.com
 
-# YYeTs
+# YYeTs 人人影视
 DOMAIN-SUFFIX,jstucdn.com
 DOMAIN-SUFFIX,zimuzu.io
 DOMAIN-SUFFIX,zimuzu.tv
+DOMAIN-SUFFIX,zmz001.com
+DOMAIN-SUFFIX,zmz002.com
+DOMAIN-SUFFIX,zmz003.com
+DOMAIN-SUFFIX,zmz004.com
 DOMAIN-SUFFIX,zmz2019.com
 DOMAIN-SUFFIX,zmzapi.com
 DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
 
-# Yonyou
+# Yonyou 用友
 DOMAIN-SUFFIX,yonyou.com
 DOMAIN-SUFFIX,yonyoucloud.com
 DOMAIN-SUFFIX,shufafin.com
@@ -312,6 +317,14 @@ IP-CIDR,139.220.243.27/32,no-resolve
 IP-CIDR,172.16.102.56/32,no-resolve
 IP-CIDR,185.188.32.1/28,no-resolve
 IP-CIDR,221.226.128.146/32,no-resolve
+
+# Public Direct CDN 公共直连cdn
+DOMAIN-SUFFIX,ajax.aspnetcdn.com
+DOMAIN-SUFFIX,bootcss.com
+DOMAIN-SUFFIX,cdnjs.cloudflare.com
+DOMAIN-SUFFIX,code.jquery.com
+DOMAIN-SUFFIX,staticfile.org
+DOMAIN-SUFFIX,upaiyun.com
 
 # Acceleratedirectsites
 DOMAIN-SUFFIX,12306.com
@@ -335,7 +348,6 @@ DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,biqudu.com
 DOMAIN-SUFFIX,biquge.com
 DOMAIN-SUFFIX,bitauto.com
-DOMAIN-SUFFIX,bootcss.com
 DOMAIN-SUFFIX,c-ctrip.com
 DOMAIN-SUFFIX,camera360.com
 DOMAIN-SUFFIX,che168.com
@@ -467,7 +479,6 @@ DOMAIN-SUFFIX,sm.ms
 DOMAIN-SUFFIX,smtcdns.net
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,snwx.com
-DOMAIN-SUFFIX,so.com
 DOMAIN-SUFFIX,ssl-images-amazon.com
 DOMAIN-SUFFIX,sspai.com
 DOMAIN-SUFFIX,startssl.com
@@ -482,7 +493,6 @@ DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,ttmeiju.com
 DOMAIN-SUFFIX,tudou.com
 DOMAIN-SUFFIX,tuniu.com
-DOMAIN-SUFFIX,upaiyun.com
 DOMAIN-SUFFIX,upyun.com
 DOMAIN-SUFFIX,uxengine.net
 DOMAIN-SUFFIX,v2ex.com
@@ -522,11 +532,6 @@ DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zhongsou.com
 DOMAIN-SUFFIX,zhuihd.com
-DOMAIN-SUFFIX,zmz001.com
-DOMAIN-SUFFIX,zmz002.com
-DOMAIN-SUFFIX,zmz003.com
-DOMAIN-SUFFIX,zmz004.com
-DOMAIN,images-cn.ssl-images-amazon.com
 
 # 本地/局域网地址
 DOMAIN-SUFFIX,localhost

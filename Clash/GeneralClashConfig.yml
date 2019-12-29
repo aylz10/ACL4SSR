@@ -514,12 +514,15 @@ cfw-bypass:
   - 172.31.*
   - 192.168.*
   - <local>
+# Clash for Windows
 cfw-latency-timeout: 3000
 # 打断连接
 cfw-conn-break-strategy:
   proxy: none              # none/chain/all
   profile: true            # true/false
   mode: false              # true/false
+
+# 下面这3个不要引到订阅里去 要不会出错
 Proxy:
   - name: Shadowsocks
     type: socks5
@@ -532,6 +535,7 @@ Proxy Group:
       - Shadowsocks
 Rule:
   - 'MATCH,DIRECT'
+
 # 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `RESTful API/ui`
 # 参数应填写配置目录的相对路径或绝对路径。
 # external-ui: folder
@@ -552,4 +556,3 @@ Rule:
 #     - tls://dns.rubyfish.cn:853
 #     - tls://1.0.0.1:853
 #     - tls://dns.google:853
-# Clash for Windows
