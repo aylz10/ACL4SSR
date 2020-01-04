@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,网络
 # 中国国内常见域名关键词直连
 DOMAIN-KEYWORD,-cn
 DOMAIN-KEYWORD,360buy
+DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,alimama
 DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,appzapp
@@ -94,6 +95,7 @@ DOMAIN-SUFFIX,hao123img.com
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,jomodns.com
+DOMAIN-SUFFIX,ppsimg.com
 DOMAIN-SUFFIX,yunjiasu-cdn.net
 
 # Bilibili
@@ -328,6 +330,7 @@ DOMAIN-SUFFIX,abercrombie.com
 DOMAIN-SUFFIX,acfun.tv
 DOMAIN-SUFFIX,air-matters.com
 DOMAIN-SUFFIX,air-matters.io
+DOMAIN-SUFFIX,aixifan.com
 DOMAIN-SUFFIX,algocasts.io
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,bdimg.com
@@ -363,6 +366,7 @@ DOMAIN-SUFFIX,dytt8.net
 DOMAIN-SUFFIX,easou.com
 DOMAIN-SUFFIX,eastmoney.com
 DOMAIN-SUFFIX,ecitic.com
+DOMAIN-SUFFIX,ele.me
 DOMAIN-SUFFIX,ewqcxz.com
 DOMAIN-SUFFIX,fang.com
 DOMAIN-SUFFIX,fantasy.tv
@@ -505,6 +509,7 @@ DOMAIN-SUFFIX,yach.me
 DOMAIN-SUFFIX,yangkeduo.com
 DOMAIN-SUFFIX,yeepay.com
 DOMAIN-SUFFIX,yhd.com
+DOMAIN-SUFFIX,yihaodianimg.com
 DOMAIN-SUFFIX,yinxiang.com
 DOMAIN-SUFFIX,yinyuetai.com
 DOMAIN-SUFFIX,yixia.com

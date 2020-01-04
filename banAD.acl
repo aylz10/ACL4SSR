@@ -1,6 +1,6 @@
 #**********************************************************************
-# 12.29
-# 2019年12月29日12:58:35
+# 01.04
+# 2020年1月4日13:38:55
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -41,14 +41,17 @@
 (^|\.)\w*analytics\w*\.\w*$
 (^|\.)\w*applovin\w*\.\w*$
 (^|\.)\w*appsflyer\w*\.\w*$
+(^|\.)\w*domob\w*\.\w*$
 (^|\.)\w*duomeng\w*\.\w*$
 (^|\.)\w*dwtrack\w*\.\w*$
 (^|\.)\w*guanggao\w*\.\w*$
 (^|\.)\w*lianmeng\w*\.\w*$
 (^|\.)\w*monitor\w*\.\w*$
+(^|\.)\w*omgmta\w*\.\w*$
 (^|\.)\w*omniture\w*\.\w*$
 (^|\.)\w*openx\w*\.\w*$
 (^|\.)\w*partnerad\w*\.\w*$
+(^|\.)\w*pingfore\w*\.\w*$
 (^|\.)\w*socdm\w*\.\w*$
 (^|\.)\w*supersonicads\w*\.\w*$
 (^|\.)\w*tracking\w*\.\w*$
@@ -1497,6 +1500,7 @@
 (^|\.)\w*-cn\w*\.\w*$
 (^|\.)\w*0x\w*\.\w*$
 (^|\.)\w*360buy\w*\.\w*$
+(^|\.)\w*alicdn\w*\.\w*$
 (^|\.)\w*alimama\w*\.\w*$
 (^|\.)\w*alipay\w*\.\w*$
 (^|\.)\w*appzapp\w*\.\w*$
@@ -1822,6 +1826,7 @@
 (^|\.)acfun\.tv$
 (^|\.)air-matters\.com$
 (^|\.)air-matters\.io$
+(^|\.)aixifan\.com$
 (^|\.)algocasts\.io$
 (^|\.)apache\.org$
 (^|\.)bdimg\.com$
@@ -1857,6 +1862,7 @@
 (^|\.)easou\.com$
 (^|\.)eastmoney\.com$
 (^|\.)ecitic\.com$
+(^|\.)ele\.me$
 (^|\.)ewqcxz\.com$
 (^|\.)fang\.com$
 (^|\.)fantasy\.tv$
@@ -1999,6 +2005,7 @@
 (^|\.)yangkeduo\.com$
 (^|\.)yeepay\.com$
 (^|\.)yhd\.com$
+(^|\.)yihaodianimg\.com$
 (^|\.)yinxiang\.com$
 (^|\.)yinyuetai\.com$
 (^|\.)yixia\.com$
