@@ -5,7 +5,6 @@ DOMAIN-SUFFIX,423down.com
 DOMAIN-SUFFIX,mpyit.com
 DOMAIN-SUFFIX,laomo.me
 DOMAIN-SUFFIX,hrtsea.com
-DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,bitwarden.com
 
 # CN域名直连
@@ -108,6 +107,7 @@ DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,im9.com
 
