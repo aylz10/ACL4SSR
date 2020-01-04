@@ -187,6 +187,7 @@ DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,xiaomi.com
 
 # Microsoft
+DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,msecnd.net
 DOMAIN-SUFFIX,office365.com
@@ -334,7 +335,6 @@ DOMAIN-SUFFIX,aixifan.com
 DOMAIN-SUFFIX,algocasts.io
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,bdimg.com
-DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,biqudu.com
 DOMAIN-SUFFIX,biquge.com
 DOMAIN-SUFFIX,bitauto.com
