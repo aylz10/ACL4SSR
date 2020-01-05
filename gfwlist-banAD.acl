@@ -2,7 +2,7 @@
 # 01.04
 # 2020年1月4日13:38:55
 # 转载需要注明版权和来源
-# 
+#
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
 #
 # 参照lhie1的surge规则改编，致谢!! https://github.com/lhie1/Surge
@@ -473,7 +473,7 @@
 (^|\.)applovin\.com$
 (^|\.)guangzhuiyuan\.com$
 
-# Toutiao	
+# Toutiao
 (^|\.)(ad|sm|dsp|nativeapp|partner)\.toutiao\.com$
 
 # Twitter
@@ -1489,7 +1489,7 @@
 (^|\.)apkmirror\.com$
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
-(^|\.)cccat\.cc$
+(^|\.)cccat\.io$
 (^|\.)cloudcone\.com$
 (^|\.)cloudfront\.net$
 (^|\.)dmm\.co\.jp$
@@ -2260,8 +2260,7 @@
 (^|\.)cbc\.ca$
 (^|\.)cbsnews\.com$
 (^|\.)cbtc\.org\.hk$
-(^|\.)cccat\.cc$
-(^|\.)cccat\.co$
+(^|\.)cccat\.io$
 (^|\.)ccdtr\.org$
 (^|\.)cchere\.com$
 (^|\.)ccim\.org$
