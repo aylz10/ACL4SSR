@@ -3,7 +3,6 @@
 # source: https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,microsoft
-DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,aadrm.com
 DOMAIN-SUFFIX,acompli.com
 DOMAIN-SUFFIX,acompli.net
