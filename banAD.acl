@@ -1,6 +1,6 @@
 #**********************************************************************
-# 02.07
-# 2020年2月7日09:07:32
+# 02.17
+# 2020年2月17日 19:04:30
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -121,8 +121,7 @@
 (^|\.)(fav|m|redirect|srd|tns)\.simba\.taobao\.com$
 (^|\.)(sdkinit|simaba|tyh)\.taobao\.com$
 (^|\.)acjs\.aliyun\.com$
-(^|\.)adash-c\.ut\.taobao\.com$
-(^|\.)adashxgc\.ut\.taobao\.com$
+(^|\.)(adash-c|adashbc|adashxgc)\.ut\.taobao\.com$
 (^|\.)alipaylog\.com$
 (^|\.)amdc\.alipay\.com$
 (^|\.)click\.mz\.simba\.taobao\.com$
@@ -8399,6 +8398,8 @@
 (^|\.)vine\.co$
 (^|\.)vox-cdn\.com$
 (^|\.)wikileaks\.org$
+(^|\.)wikimapia\.org$
+(^|\.)wikimedia\.org$
 (^|\.)wikipedia\.org$
 (^|\.)www\.youtube-nocookie\.com$
 (^|\.)youtu\.be$
