@@ -1,6 +1,6 @@
 #**********************************************************************
-# 02.07
-# 2020年2月7日09:07:32
+# 02.18
+# 2020年2月18日18:42:04
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -432,7 +432,6 @@
 # Moji
 (^|\.)ad\.api\.moji\.com$
 (^|\.)app\.moji001\.com$
-(^|\.)cdn\.moji\.com$
 (^|\.)cdn\.moji002\.com$
 (^|\.)cdn2\.moji002\.com$
 (^|\.)fds\.api\.moji\.com$
@@ -864,6 +863,7 @@
 (^|\.)advertising\.com$
 (^|\.)adview\.cn$
 (^|\.)advmob\.cn$
+(^|\.)adwetec\.cn$
 (^|\.)adwhirl\.com$
 (^|\.)adwo\.com$
 (^|\.)adxmi\.com$
@@ -1031,6 +1031,7 @@
 (^|\.)mediaplex\.com$
 (^|\.)mediav\.com$
 (^|\.)megajoy\.com$
+(^|\.)meiqia\.com$
 (^|\.)mgogo\.com$
 (^|\.)miaozhen\.com$
 (^|\.)microad-cn\.com$
