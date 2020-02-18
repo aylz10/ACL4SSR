@@ -123,8 +123,7 @@
 (^|\.)(fav|m|redirect|srd|tns)\.simba\.taobao\.com$
 (^|\.)(sdkinit|simaba|tyh)\.taobao\.com$
 (^|\.)acjs\.aliyun\.com$
-(^|\.)adash-c\.ut\.taobao\.com$
-(^|\.)adashxgc\.ut\.taobao\.com$
+(^|\.)(adash-c|adashbc|adashxgc)\.ut\.taobao\.com$
 (^|\.)alipaylog\.com$
 (^|\.)amdc\.alipay\.com$
 (^|\.)click\.mz\.simba\.taobao\.com$
@@ -1704,6 +1703,7 @@
 (^|\.)youtube\.com$
 (^|\.)ytimg\.com$
 (^|\.)wikipedia\.org$
+(^|\.)wikimedia\.org$
 
 # Other
 (^|\.)doub\.io$
