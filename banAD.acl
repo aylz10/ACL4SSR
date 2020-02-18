@@ -1511,7 +1511,7 @@
 [bypass_list]
 # 直连列表
 
-# MyList$
+# MyList
 (^|\.)423down\.com$
 (^|\.)bitwarden\.com$
 (^|\.)chaipip\.com$
