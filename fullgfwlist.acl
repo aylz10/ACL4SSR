@@ -8,13 +8,10 @@
 # 下载地址 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/fullgfwlist.acl
 #
 #**********************************************************************
-
 [bypass_all]
 ### 默认直连 自己可以自定义
-
 #**********************************************************************
 [proxy_list]
-
 # MyList
 (^|\.)apkmirror\.com$
 (^|\.)bit\.no\.com$
@@ -45,7 +42,6 @@
 (^|\.)ec2-54-174-178-70\.computer-1\.amazonaws\.com$
 (^|\.)ec2-54-175-2-194\.computer-1\.amazonaws\.com$
 (^|\.)ec2-54-210-54-246\.computer-1\.amazonaws\.com$
-
 #GFWList IP start
 85.17.73.31
 174.142.105.153
@@ -92,7 +88,6 @@
 36.234.188.130
 114.199.145.219
 220.132.16.173
-
 # 国外域名关键字
 (^|\.)\w*1e100\w*\.\w*$
 (^|\.)\w*appledaily\w*\.\w*$
@@ -2090,7 +2085,7 @@
 (^|\.)goodtv\.tv$
 (^|\.)goofind\.com$
 (^|\.)goo\.gl$
-(^|\.)# Google TLDs$
+# Google TLDs$
 (^|\.)google\.ad$
 (^|\.)google\.ae$
 (^|\.)google\.al$
@@ -2284,7 +2279,7 @@
 (^|\.)google\.vg$
 (^|\.)google\.vu$
 (^|\.)google\.ws$
-(^|\.)# Google TLDs end$
+# Google TLDs end$
 (^|\.)googleapis\.cn$
 (^|\.)googleapis\.com$
 (^|\.)googleapps\.com$
@@ -5812,7 +5807,6 @@
 (^|\.)zzcartoon\.com$
 (^|\.)zzcloud\.me$
 (^|\.)zzux\.com$
-
 # Other
 (^|\.)doub\.io$
 (^|\.)gameloft\.com$
@@ -5820,28 +5814,22 @@
 (^|\.)reddit\.com$
 (^|\.)teddysun\.com$
 (^|\.)unsplash\.com$
-
 # APKPURE
 (^|\.)apkpure\.com$
-
 # BBC
 (^|\.)\w*uk-live\w*\.\w*$
 (^|\.)bbc\.co$
 (^|\.)bbc\.com$
-
 # Discord
 (^|\.)discordapp\.com$
 (^|\.)discordapp\.net$
-
 # Google
 (^|\.)googleapis\.cn$
 (^|\.)googleapis\.com$
 (^|\.)1e100\.net
 (^|\.)app-measurement\.net
-
 # Hulu
 (^|\.)hulu\.com$
-
 # Instagram
 (^|\.)\w*instagram\w*\.\w*$
 (^|\.)cdninstagram\.com$
@@ -5849,7 +5837,6 @@
 (^|\.)instagr\.am$
 (^|\.)akamaihd\.net$
 (^|\.)d36xtkk24g8jdx\.cloudfront\.net$
-
 # Kakao Talk
 (^|\.)kakao\.com$
 (^|\.)kakao\.co\.kr$
@@ -5860,7 +5847,6 @@
 103.27.148.0/22
 110.76.140.0/22
 113.61.104.0/22
-
 # Line
 (^|\.)lin\.ee$
 (^|\.)line-apps\.com$
@@ -5882,8 +5868,6 @@
 203.104.128.0/20
 203.174.66.64/26
 203.174.77.0/24
-
-
 # Microsoft Onenote 
 (^|\.)1drv\.com$
 (^|\.)aadrm\.com$
@@ -5969,7 +5953,6 @@
 (^|\.)wunderlist\.com$
 (^|\.)yammer\.com$
 (^|\.)yammerusercontent\.com$
-
 # Netflix & MytvSUPER
 (^|\.)\w*nowtv100\w*\.\w*$
 (^|\.)\w*rthklive\w*\.\w*$
@@ -5996,14 +5979,12 @@
 198.45.48.0/20
 207.45.72.0/22
 208.75.76.0/24
-
 # Potato Chat
 (^|\.)potato\.im$
 13.251.24.157/24
 13.251.41.203/24
 17.252.156.147/24
 17.252.157.26/24
-
 #ResiloSync
 (^|\.)config\.getsync\.com$
 (^|\.)config\.resilio\.com$
@@ -6012,25 +5993,21 @@
 173.244.209.150/32
 173.244.217.42/32
 209.95.56.60/32
-
 # Steam
 (^|\.)fanatical\.com$
 (^|\.)humblebundle\.com$
 (^|\.)steamcommunity\.com$
 (^|\.)steampowered\.com$
 (^|\.)steamstatic\.com$
-
 # Telegram
 91.108.0.0/16
 109.239.140.0/24
 149.154.160.0/20
-
 # Twitch
 (^|\.)twitch\.tv$
 (^|\.)ttvnw\.net$
 (^|\.)jtvnw\.net$
 (^|\.)akamaized\.net$
-
 # Whatsapp
 (^|\.)whatsapp\.com$
 (^|\.)whatsapp\.net$
@@ -6049,7 +6026,6 @@
 158.85.224.160/27
 75.126.150.0/16
 69.171.235.0/16
-
 #飞流直播
 (^|\.)neulion\.com$
 (^|\.)icntv\.xyz$
