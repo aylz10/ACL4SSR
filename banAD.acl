@@ -1137,7 +1137,6 @@
 (^|\.)unionsy\.com$
 (^|\.)unlitui\.com$
 (^|\.)uri6\.com$
-(^|\.)userstyles\.org$
 (^|\.)ushaqi\.com$
 (^|\.)usingde\.com$
 (^|\.)uuzu\.com$
@@ -1939,6 +1938,7 @@
 (^|\.)babytree\.com$
 (^|\.)babytreeimg\.com$
 (^|\.)baicizhan\.com$
+(^|\.)baidupan\.com$
 (^|\.)baike\.com$
 (^|\.)biqudu\.com$
 (^|\.)biquge\.com$
@@ -2030,6 +2030,7 @@
 (^|\.)kugou\.com$
 (^|\.)lancdns\.com$
 (^|\.)landiannews\.com$
+(^|\.)lanzou\.com$
 (^|\.)lemicp\.com$
 (^|\.)letitfly\.me$
 (^|\.)linkedin\.com$
