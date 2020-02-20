@@ -1905,10 +1905,6 @@
 221.226.128.146/32
 
 # Public Direct CDN 公共直连cdn
-#(^|\.)ajax\.aspnetcdn\.com$
-#(^|\.)ajax\.cloudflare\.com$
-#(^|\.)cdnjs\.cloudflare\.com$
-#(^|\.)code\.jquery\.com$
 (^|\.)baomitu\.com$
 (^|\.)bootcss\.com$
 (^|\.)jiasule\.com$
