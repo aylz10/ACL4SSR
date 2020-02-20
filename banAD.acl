@@ -1679,7 +1679,7 @@
 # Douyu 斗鱼
 (^|\.)douyu\.com$
 (^|\.)douyu\.tv$
-(^|\.)douyutv.\com$
+(^|\.)douyutv\.com$
 
 # Epic
 (^|\.)epicgames\.com$
