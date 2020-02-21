@@ -1,6 +1,6 @@
 #**********************************************************************
-# 02.18
-# 2020年2月18日 16:10:16
+# 02.21
+# 2020年2月21日11:54:04
 # 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
 #
@@ -11,9 +11,13 @@
 
 [bypass_all]
 ### 默认直连 自己可以自定义
+### [outbound_block_list] 禁止访问列表
+### [bypass_list] 直连列表 禁止访问列表
+### [proxy_list] 代理列表
 
 #**********************************************************************
 [proxy_list]
+
 # MyList
 (^|\.)apkmirror\.com$
 (^|\.)bit\.no\.com$
@@ -58,7 +62,6 @@
 72.52.81.22
 14.102.250.18
 14.102.250.19
-
 #GFWList IP end
 61.230.0.128
 95.211.214.34
@@ -5812,6 +5815,7 @@
 (^|\.)zzcartoon\.com$
 (^|\.)zzcloud\.me$
 (^|\.)zzux\.com$
+
 # Other
 (^|\.)doub\.io$
 (^|\.)gameloft\.com$
@@ -5819,15 +5823,19 @@
 (^|\.)reddit\.com$
 (^|\.)teddysun\.com$
 (^|\.)unsplash\.com$
+
 # APKPURE
 (^|\.)apkpure\.com$
+
 # BBC
 (^|\.)\w*uk-live\w*\.\w*$
 (^|\.)bbc\.co$
 (^|\.)bbc\.com$
+
 # Discord
 (^|\.)discordapp\.com$
 (^|\.)discordapp\.net$
+
 # Google
 8.8.8.8
 8.8.4.4
@@ -5835,8 +5843,10 @@
 (^|\.)googleapis\.com$
 (^|\.)1e100\.net
 (^|\.)app-measurement\.net
+
 # Hulu
 (^|\.)hulu\.com$
+
 # Instagram
 (^|\.)\w*instagram\w*\.\w*$
 (^|\.)cdninstagram\.com$
@@ -5844,6 +5854,7 @@
 (^|\.)instagr\.am$
 (^|\.)akamaihd\.net$
 (^|\.)d36xtkk24g8jdx\.cloudfront\.net$
+
 # Kakao Talk
 (^|\.)kakao\.com$
 (^|\.)kakao\.co\.kr$
@@ -5854,6 +5865,7 @@
 103.27.148.0/22
 110.76.140.0/22
 113.61.104.0/22
+
 # Line
 (^|\.)lin\.ee$
 (^|\.)line-apps\.com$
@@ -5875,7 +5887,8 @@
 203.104.128.0/20
 203.174.66.64/26
 203.174.77.0/24
-# Microsoft Onenote 
+
+# Microsoft Onenote
 (^|\.)1drv\.com$
 (^|\.)aadrm\.com$
 (^|\.)acompli\.com$
@@ -5960,6 +5973,7 @@
 (^|\.)wunderlist\.com$
 (^|\.)yammer\.com$
 (^|\.)yammerusercontent\.com$
+
 # Netflix & MytvSUPER
 (^|\.)\w*nowtv100\w*\.\w*$
 (^|\.)\w*rthklive\w*\.\w*$
@@ -5986,12 +6000,14 @@
 198.45.48.0/20
 207.45.72.0/22
 208.75.76.0/24
+
 # Potato Chat
 (^|\.)potato\.im$
 13.251.24.157/24
 13.251.41.203/24
 17.252.156.147/24
 17.252.157.26/24
+
 #ResiloSync
 (^|\.)config\.getsync\.com$
 (^|\.)config\.resilio\.com$
@@ -6000,21 +6016,25 @@
 173.244.209.150/32
 173.244.217.42/32
 209.95.56.60/32
+
 # Steam
 (^|\.)fanatical\.com$
 (^|\.)humblebundle\.com$
 (^|\.)steamcommunity\.com$
 (^|\.)steampowered\.com$
 (^|\.)steamstatic\.com$
+
 # Telegram
 91.108.0.0/16
 109.239.140.0/24
 149.154.160.0/20
+
 # Twitch
 (^|\.)twitch\.tv$
 (^|\.)ttvnw\.net$
 (^|\.)jtvnw\.net$
 (^|\.)akamaized\.net$
+
 # Whatsapp
 (^|\.)whatsapp\.com$
 (^|\.)whatsapp\.net$
@@ -6033,7 +6053,11 @@
 158.85.224.160/27
 75.126.150.0/16
 69.171.235.0/16
+
 #飞流直播
 (^|\.)neulion\.com$
 (^|\.)icntv\.xyz$
 (^|\.)flzbcdn\.xyz$
+
+#华文电视
+(^|\.)ocnttv\.com$
