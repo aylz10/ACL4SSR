@@ -14093,6 +14093,7 @@
 (^|\.)discordapp\.net$
 
 # Github
+(^|\.)github-production.*$
 (^|\.)github\.com$
 (^|\.)github\.io$
 (^|\.)githubapp\.com$

@@ -1533,7 +1533,6 @@
 (^|\.)dmm\.co\.jp$
 (^|\.)doub\.io$
 (^|\.)gameloft\.com$
-(^|\.)githubusercontent\.com$
 (^|\.)gvt\w\.com$
 (^|\.)inoreader\.com$
 (^|\.)ip138\.com$
@@ -1725,6 +1724,7 @@
 (^|\.)discordapp\.net$
 
 # Github
+(^|\.)github-production.*$
 (^|\.)github\.com$
 (^|\.)github\.io$
 (^|\.)githubapp\.com$
