@@ -58,6 +58,7 @@ DOMAIN-SUFFIX,1688.com
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alibabacloud.com
+DOMAIN-SUFFIX,alibabausercontent.com
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,aliexpress.com
 DOMAIN-SUFFIX,aliimg.com
@@ -96,6 +97,7 @@ DOMAIN-SUFFIX,baidustatic.com
 DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,bdurl.net
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,hao123img.com
 DOMAIN-SUFFIX,jomodns.com
@@ -120,6 +122,7 @@ DOMAIN-SUFFIX,blizzard.com
 
 # ByteDance
 DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,feiliao.com
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,huoshan.com

@@ -1,6 +1,6 @@
 #**********************************************************************
-# 02.20
-# 2020年2月20日22:44:54
+# 02.22
+# 2020年2月22日09:32:16
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -964,6 +964,7 @@
 (^|\.)fraudmetrix.cn
 (^|\.)fraudmetrix\.cn$
 (^|\.)gentags\.net$
+(^|\.)gepush\.com$
 (^|\.)getui\.com$
 (^|\.)glispa\.com$
 (^|\.)go-mpulse$
@@ -1576,6 +1577,7 @@
 (^|\.)aliapp\.org$
 (^|\.)alibaba\.com$
 (^|\.)alibabacloud\.com$
+(^|\.)alibabausercontent\.com$
 (^|\.)alicdn\.com$
 (^|\.)aliexpress\.com$
 (^|\.)aliimg\.com$
@@ -1628,6 +1630,7 @@
 (^|\.)bcebos\.com$
 (^|\.)bdimg\.com$
 (^|\.)bdstatic\.com$
+(^|\.)bdurl\.net$
 (^|\.)hao123\.com$
 (^|\.)hao123img\.com$
 (^|\.)jomodns\.com$
