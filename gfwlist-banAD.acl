@@ -55,7 +55,6 @@
 (^|\.)\w*tracking\w*\.\w*$
 (^|\.)\w*traffic\w*\.\w*$
 (^|\.)\w*uedas\w*\.\w*$
-(^|\.)\w*umeng\w*\.\w*$
 (^|\.)\w*usage\w*\.\w*$
 (^|\.)\w*wlmonitor\w*\.\w*$
 (^|\.)\w*zjtoolbar\w*\.\w*$
@@ -1128,7 +1127,6 @@
 (^|\.)ukeiae\.com$
 (^|\.)umeng\.co$
 (^|\.)umeng\.com$
-(^|\.)umengcloud\.com$
 (^|\.)umtrack\.com$
 (^|\.)unimhk\.com$
 (^|\.)union-wifi\.com$
