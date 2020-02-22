@@ -8346,17 +8346,25 @@
 
 # 国外域名关键字
 (^|\.)\w*1e100\w*\.\w*$
+(^|\.)\w*abema\w*\.\w*$
 (^|\.)\w*appledaily\w*\.\w*$
+(^|\.)\w*avtb\w*\.\w*$
+(^|\.)\w*beetalk\w*\.\w*$
 (^|\.)\w*blogspot\w*\.\w*$
 (^|\.)\w*dropbox\w*\.\w*$
 (^|\.)\w*facebook\w*\.\w*$
 (^|\.)\w*fbcdn\w*\.\w*$
+(^|\.)\w*github\w*\.\w*$
 (^|\.)\w*gmail\w*\.\w*$
 (^|\.)\w*google\w*\.\w*$
+(^|\.)\w*instagram\w*\.\w*$
+(^|\.)\w*porn\w*\.\w*$
+(^|\.)\w*sci-hub\w*\.\w*$
 (^|\.)\w*spotify\w*\.\w*$
 (^|\.)\w*telegram\w*\.\w*$
 (^|\.)\w*twitter\w*\.\w*$
 (^|\.)\w*whatsapp\w*\.\w*$
+(^|\.)\w*youtube\w*\.\w*$
 
 #GFWList
 (^|\.)(.*)2\.bahamut\.com\.tw$
