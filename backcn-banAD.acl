@@ -8283,7 +8283,6 @@
 (^|\.)ping\.pe$
 (^|\.)quora\.com$
 (^|\.)reddit\.com$
-(^|\.)s3\.amazonaws\.com$
 (^|\.)teddysun\.com$
 (^|\.)tumbex\.com$
 (^|\.)tvb\.com$
@@ -14093,18 +14092,18 @@
 (^|\.)discordapp\.net$
 
 # Github
-(^|\.)github-production.*$
 (^|\.)github\.com$
 (^|\.)github\.io$
 (^|\.)githubapp\.com$
 (^|\.)githubassets\.com$
 (^|\.)githubusercontent\.com$
+(^|\.)s3\.amazonaws\.com$
 
 # Google
+(^|\.)1e100\.net$
+(^|\.)app-measurement\.net$
 (^|\.)googleapis\.cn$
 (^|\.)googleapis\.com$
-(^|\.)1e100\.net
-(^|\.)app-measurement\.net
 
 # Hulu
 (^|\.)hulu\.com$
@@ -14239,5 +14238,6 @@
 (^|\.)neulion\.com$
 (^|\.)icntv\.xyz$
 (^|\.)flzbcdn\.xyz$
+
 #华文电视
 (^|\.)ocnttv\.com$

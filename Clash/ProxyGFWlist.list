@@ -20,7 +20,6 @@ DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,doub.io
 DOMAIN-SUFFIX,gameloft.com
-DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,gvtw.com
 DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,ip138.com
@@ -5538,3 +5537,46 @@ DOMAIN-SUFFIX,zyzc9.com
 DOMAIN-SUFFIX,zzcartoon.com
 DOMAIN-SUFFIX,zzcloud.me
 DOMAIN-SUFFIX,zzux.com
+
+# Apkpure
+DOMAIN-SUFFIX,apkpure.com
+
+# BBC
+DOMAIN-SUFFIX,bbc.co
+DOMAIN-SUFFIX,bbc.com
+
+# Discord
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+
+# Github
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,s3.amazonaws.com
+
+# Google
+DOMAIN-SUFFIX,1e100.net
+DOMAIN-SUFFIX,app-measurement.net
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,googleapis.com
+
+# Instagram
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,akamaihd.net
+
+# Steam
+DOMAIN-SUFFIX,fanatical.com
+DOMAIN-SUFFIX,humblebundle.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamstatic.co
+
+# ifun.tv
+DOMAIN-SUFFIX,timegate.vip
+DOMAIN-SUFFIX,dnvodcdn.me
+DOMAIN-SUFFIX,ifun.tv

@@ -27,7 +27,6 @@ DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,ping.pe
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,teddysun.com
 DOMAIN-SUFFIX,tumbex.com
 DOMAIN-SUFFIX,tvb.com
@@ -198,6 +197,20 @@ DOMAIN-SUFFIX,bbc.com
 # Discord
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
+
+# Github
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,s3.amazonaws.com
+
+# Google
+DOMAIN-SUFFIX,1e100.net
+DOMAIN-SUFFIX,app-measurement.net
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,googleapis.com
 
 # Instagram
 DOMAIN-SUFFIX,cdninstagram.com

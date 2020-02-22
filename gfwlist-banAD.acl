@@ -1562,7 +1562,6 @@
 (^|\.)ping\.pe$
 (^|\.)quora\.com$
 (^|\.)reddit\.com$
-(^|\.)s3\.amazonaws\.com$
 (^|\.)teddysun\.com$
 (^|\.)tumbex\.com$
 (^|\.)tvb\.com$
@@ -7372,20 +7371,20 @@
 (^|\.)discordapp\.net$
 
 # Github
-(^|\.)github-production.*$
 (^|\.)github\.com$
 (^|\.)github\.io$
 (^|\.)githubapp\.com$
 (^|\.)githubassets\.com$
 (^|\.)githubusercontent\.com$
+(^|\.)s3\.amazonaws\.com$
 
 # Google
 8.8.8.8
 8.8.4.4
+(^|\.)1e100\.net$
+(^|\.)app-measurement\.net$
 (^|\.)googleapis\.cn$
 (^|\.)googleapis\.com$
-(^|\.)1e100\.net
-(^|\.)app-measurement\.net
 
 # Hulu
 (^|\.)hulu\.com$
