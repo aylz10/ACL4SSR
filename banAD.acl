@@ -8437,6 +8437,13 @@
 (^|\.)discordapp\.com$
 (^|\.)discordapp\.net$
 
+# Github
+(^|\.)github\.com$
+(^|\.)github\.io$
+(^|\.)githubapp\.com$
+(^|\.)githubassets\.com$
+(^|\.)githubusercontent\.com$
+
 # Google
 (^|\.)googleapis\.cn$
 (^|\.)googleapis\.com$
