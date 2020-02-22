@@ -48,8 +48,6 @@
 (^|\.)ec2-54-175-2-194\.computer-1\.amazonaws\.com$
 (^|\.)ec2-54-210-54-246\.computer-1\.amazonaws\.com$
 
-
-
 # 国外域名关键字
 (^|\.)\w*1e100\w*\.\w*$
 (^|\.)\w*abema\w*\.\w*$
@@ -5880,6 +5878,8 @@
 (^|\.)app-measurement\.net$
 (^|\.)googleapis\.cn$
 (^|\.)googleapis\.com$
+8.8.8.8
+8.8.4.4
 74.125.0.0/16
 173.194.0.0/16
 
