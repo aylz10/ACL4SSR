@@ -1,6 +1,6 @@
 #**********************************************************************
-# 02.22
-# 2020年2月22日17:24:07
+# 02.23
+# 2020年2月23日18:22:39
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -1544,25 +1544,17 @@
 [proxy_list]
 
 # MyList
-(^|\.)apkmirror\.com$
 (^|\.)bit\.no\.com$
 (^|\.)btlibrary\.me$
 (^|\.)cccat\.io$
 (^|\.)cloudcone\.com$
-(^|\.)cloudfront\.net$
-(^|\.)dmm\.co\.jp$
-(^|\.)doub\.io$
 (^|\.)gameloft\.com$
-(^|\.)gvt\w\.com$
 (^|\.)inoreader\.com$
 (^|\.)ip138\.com$
 (^|\.)ping\.pe$
-(^|\.)quora\.com$
 (^|\.)reddit\.com$
-(^|\.)s3\.amazonaws\.com$
 (^|\.)teddysun\.com$
 (^|\.)tumbex\.com$
-(^|\.)tvb\.com$
 (^|\.)twdvd\.com$
 (^|\.)unsplash\.com$
 (^|\.)xn--i2ru8q2qg\.com$
@@ -1572,6 +1564,41 @@
 (^|\.)ec2-54-174-178-70\.computer-1\.amazonaws\.com$
 (^|\.)ec2-54-175-2-194\.computer-1\.amazonaws\.com$
 (^|\.)ec2-54-210-54-246\.computer-1\.amazonaws\.com$
+
+# 国外域名
+^.*\.hk$
+^.*\.jp$
+^.*\.kr$
+^.*\.sg$
+^.*\.tw$
+^.*\.uk$
+^.*\.us$
+
+# 国外域名关键字
+(^|\.)\w*1e100\w*\.\w*$
+(^|\.)\w*abema\w*\.\w*$
+(^|\.)\w*appledaily\w*\.\w*$
+(^|\.)\w*avtb\w*\.\w*$
+(^|\.)\w*beetalk\w*\.\w*$
+(^|\.)\w*blogspot\w*\.\w*$
+(^|\.)\w*dropbox\w*\.\w*$
+(^|\.)\w*facebook\w*\.\w*$
+(^|\.)\w*fbcdn\w*\.\w*$
+(^|\.)\w*github\w*\.\w*$
+(^|\.)\w*gmail\w*\.\w*$
+(^|\.)\w*google\w*\.\w*$
+(^|\.)\w*instagram\w*\.\w*$
+(^|\.)\w*porn\w*\.\w*$
+(^|\.)\w*sci-hub\w*\.\w*$
+(^|\.)\w*spotify\w*\.\w*$
+(^|\.)\w*telegram\w*\.\w*$
+(^|\.)\w*twitter\w*\.\w*$
+(^|\.)\w*whatsapp\w*\.\w*$
+(^|\.)\w*youtube\w*\.\w*$
+
+# Google DNS
+8.8.8.8
+8.8.4.4
 
 #GFWList IP start
 14.102.250.18
@@ -1619,28 +1646,6 @@
 203.222.24.93
 218.161.37.206
 220.132.16.173
-
-# 国外域名关键字
-(^|\.)\w*1e100\w*\.\w*$
-(^|\.)\w*abema\w*\.\w*$
-(^|\.)\w*appledaily\w*\.\w*$
-(^|\.)\w*avtb\w*\.\w*$
-(^|\.)\w*beetalk\w*\.\w*$
-(^|\.)\w*blogspot\w*\.\w*$
-(^|\.)\w*dropbox\w*\.\w*$
-(^|\.)\w*facebook\w*\.\w*$
-(^|\.)\w*fbcdn\w*\.\w*$
-(^|\.)\w*github\w*\.\w*$
-(^|\.)\w*gmail\w*\.\w*$
-(^|\.)\w*google\w*\.\w*$
-(^|\.)\w*instagram\w*\.\w*$
-(^|\.)\w*porn\w*\.\w*$
-(^|\.)\w*sci-hub\w*\.\w*$
-(^|\.)\w*spotify\w*\.\w*$
-(^|\.)\w*telegram\w*\.\w*$
-(^|\.)\w*twitter\w*\.\w*$
-(^|\.)\w*whatsapp\w*\.\w*$
-(^|\.)\w*youtube\w*\.\w*$
 
 #GFWList
 (^|\.)(.*)2\.bahamut\.com\.tw$
@@ -7349,6 +7354,9 @@
 (^|\.)zzux\.com$
 
 # Amazon
+(^|\.)amazon\.co\.jp$
+(^|\.)amazon\.com$
+(^|\.)amazonaws\.com$
 13.32.0.0/15
 13.35.0.0/17
 18.184.0.0/15
@@ -7371,10 +7379,17 @@
 (^|\.)bbc\.com$
 
 # Discord
+(^|\.)discord\.gg$
+(^|\.)discord\.media$
 (^|\.)discordapp\.com$
 (^|\.)discordapp\.net$
 
 # Facebook
+(^|\.)facebook\.com$
+(^|\.)fb\.com$
+(^|\.)fb\.me$
+(^|\.)fbcdn\.com$
+(^|\.)fbcdn\.net$
 31.13.24.0/21
 31.13.64.0/18
 45.64.40.0/22
@@ -7400,24 +7415,30 @@
 
 # Google
 (^|\.)1e100\.net$
+(^|\.)2mdn\.net$
 (^|\.)app-measurement\.net$
+(^|\.)ggpht\.com$
 (^|\.)googleapis\.cn$
 (^|\.)googleapis\.com$
-8.8.8.8
-8.8.4.4
+(^|\.)gstatic\.cn$
+(^|\.)gstatic\.com$
+(^|\.)g\.co$
+(^|\.)goo\.gl$
+(^|\.)gvt0\.com$
+(^|\.)gvt1\.com$
+(^|\.)xn--ngstr-lra8j\.com$
+(^|\.)youtu\.be$
+(^|\.)youtube-nocookie\.com$
+(^|\.)youtube\.com$
+(^|\.)ytimg\.com$
 74.125.0.0/16
 173.194.0.0/16
 
-# Hulu
-(^|\.)hulu\.com$
-
 # Instagram
-(^|\.)\w*instagram\w*\.\w*$
 (^|\.)cdninstagram\.com$
 (^|\.)instagram\.com$
 (^|\.)instagr\.am$
 (^|\.)akamaihd\.net$
-(^|\.)d36xtkk24g8jdx\.cloudfront\.net$
 
 # Kakao Talk
 (^|\.)kakao\.com$
@@ -7565,13 +7586,6 @@
 207.45.72.0/22
 208.75.76.0/24
 
-# Potato Chat
-(^|\.)potato\.im$
-13.251.24.157/24
-13.251.41.203/24
-17.252.156.147/24
-17.252.157.26/24
-
 # ResiloSync
 (^|\.)config\.getsync\.com$
 (^|\.)config\.resilio\.com$
@@ -7589,9 +7603,17 @@
 (^|\.)steamstatic\.com$
 
 # Telegram
+(^|\.)t\.me$
+(^|\.)tdesktop\.com$
+(^|\.)telegra\.ph$
+(^|\.)telegram\.me$
+(^|\.)telegram\.org$
 91.108.0.0/16
 109.239.140.0/24
 149.154.160.0/20
+2001:67c:4e8::/48
+2001:b28:f23d::/48
+2001:b28:f23f::/48
 
 # Twitch
 (^|\.)twitch\.tv$
@@ -7599,9 +7621,13 @@
 (^|\.)jtvnw\.net$
 (^|\.)akamaized\.net$
 
+# Twitter
+(^|\.)t\.co$
+(^|\.)twimg\.co$
+(^|\.)twimg\.com$
+(^|\.)twimg\.org$
+
 # Whatsapp
-(^|\.)whatsapp\.com$
-(^|\.)whatsapp\.net$
 18.194.0.0/15
 34.224.0.0/12
 54.242.0.0/15
