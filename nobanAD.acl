@@ -631,7 +631,6 @@
 (^|\.)umengcloud\.com$
 (^|\.)upyun\.com$
 (^|\.)uxengine\.net$
-(^|\.)v2ex\.com$
 (^|\.)videocc\.net$
 (^|\.)vmware\.com$
 (^|\.)wandoujia\.com$
@@ -6920,6 +6919,7 @@
 (^|\.)tumblr\.com$
 (^|\.)tvb\.com$
 (^|\.)txmblr\.com$
+(^|\.)v2ex\.com$
 (^|\.)vimeo\.com$
 (^|\.)vine\.co$
 (^|\.)vox-cdn\.com$
