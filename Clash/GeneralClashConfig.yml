@@ -29,8 +29,9 @@ external-controller: '127.0.0.1:9090'
 # 参数应填写配置目录的相对路径或绝对路径。
 # http://127.0.0.1:9090/ui/#/
 # external-ui: folder
-#external-ui: dashboard_yacd    #yacd面板：https://github.com/haishanh/yacd
-external-ui: dashboard_Razord   #Razord面板：http://clash.razord.top/#/proxies
+# yacd面板：  https://github.com/haishanh/yacd
+# Razord面板：http://clash.razord.top/#/proxies
+#external-ui: dashboard
 
 # RESTful API 的口令 (可选)
 # secret: ""
@@ -139,8 +140,9 @@ cfw-conn-break-strategy:
 #  # 启动订阅转换程序，端口号7893
 #  - command: "subconverter.exe" # run.cmd 程序名称subconverter.exe -cfw >>logs/run.log 2>&1
 #    args:
-#      - "-cfw" # 运行参数1
-#      #- "abcdefghijk" # 运行参数2
+#     - "-cfw" # 运行参数1
+#     - "-f" # 运行参数2
+#     - "pref-acl4ssr.yml" # 运行参数3
 #    options:
 #      cwd: .\subconverter\ # 子进程工作目录
 #      #detached: true # 子进程独立于其父进程运行
