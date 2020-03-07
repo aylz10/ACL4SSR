@@ -1,4 +1,4 @@
-name: Purge jsDelivr Cache
+name: Purge CDN Cache
 
 on: [push]
 
