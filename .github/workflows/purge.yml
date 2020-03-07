@@ -1,0 +1,22 @@
+name: Purge jsDelivr Cache
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Set up Python 2.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 2.7
+
+    - name: Get Script
+    - run: |
+        apt-get install wget ca-certificates -y
+        wget https://gist.githubusercontent.com/BROBIRD/7afe1060444d7e257af82dcc92fed7f1/raw/purge.py
+        chmod +x purge.py
+        
+    - name: Run Python Script
+      run: python purge.py
