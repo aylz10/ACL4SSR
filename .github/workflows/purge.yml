@@ -14,7 +14,6 @@ jobs:
 
     - name: Get Script
       run: |
-        sudo apt-get install wget ca-certificates -y
         wget https://gist.githubusercontent.com/BROBIRD/7afe1060444d7e257af82dcc92fed7f1/raw/purge.py
         chmod +x purge.py
         
