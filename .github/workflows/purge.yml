@@ -13,7 +13,7 @@ jobs:
         python-version: 2.7
 
     - name: Get Script
-    - run: |
+      run: |
         apt-get install wget ca-certificates -y
         wget https://gist.githubusercontent.com/BROBIRD/7afe1060444d7e257af82dcc92fed7f1/raw/purge.py
         chmod +x purge.py
