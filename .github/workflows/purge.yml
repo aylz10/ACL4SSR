@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-  schedule:
-    - cron:  '* */2 * * *'
+  # schedule:
+  #   - cron:  '0 */6 * * *'
 
 jobs:
   build:
@@ -16,8 +16,7 @@ jobs:
 
     - name: Tar and Hash
       run: |
-        cd ../
-        tar -cvf git.tar -C ACL4SSR . --exclude=.git
+        tar -cvf git.tar *.acl
         echo "::set-env name=GITMD5::`md5sum git.tar | awk '{ print $1 }'`"
         rm -rf git.tar
 
