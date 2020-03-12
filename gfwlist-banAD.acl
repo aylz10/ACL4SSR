@@ -1,6 +1,6 @@
 #**********************************************************************
-# 03.09
-# 2020年3月9日 21:18:53
+# 03.12
+# 2020年3月12日19:55:44
 # 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
 #
@@ -412,7 +412,6 @@
 (^|\.)(d|migc|migcreport|mis)\.g\.mi\.com$
 (^|\.)(notice|ppurifier)\.game\.xiaomi\.com$
 (^|\.)(r|security)\.browser\.miui\.com$
-(^|\.)adv\.sec\.miui\.com$
 (^|\.)tracking\.miui\.com$
 (^|\.)union\.mi\.com$
 
