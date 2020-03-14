@@ -52,7 +52,7 @@
 | ChinaIp.list           | 规则碎片-直连        | IPIP的国内地址段。比GeoIp更好。电脑性能好，可以引入          |
 | Download.list          | 规则碎片-直连        | 一些下载用的域名                                             |
 | Apple.list             | 规则碎片             | 苹果公司的所有域名                                           |
-| Microsoft.list         | 规则碎片             |                                                              |
+| Microsoft.list         | 规则碎片             | 微软公司的所有域名                                           |
 | OneDrive.list          | 规则碎片             | OneDrive                                                     |
 | GoogleCN.list          | 规则碎片-直连        | 谷歌在中国能直连的网址列表                                   |
 | Telegram.list          | 规则碎片-代理        | Telegram的所有域名                                           |
@@ -61,8 +61,6 @@
 | ProxyLite.list         | 规则碎片-代理        | 比较精简的代理列表，包含常用的，以及被污染的域名             |
 | GeneralClashConfig.yml | clash配置文件        | 放行一堆国内的常用域名，配合系统代理更牛逼。 配置很全，自带中文注释。可以自行使用 |
 | pref.ini               | subconverter配置文件 | 更改了一些基础配置，将规则变成ACL4SSR                        |
-
-
 
 
 
