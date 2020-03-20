@@ -7,12 +7,11 @@
 ​	本文不能顾及全网的规则，仅做一般普及，需要有点基础，非小白科普文章
 
 
+​	**ACL4SSR在线Clash等规则订阅转换**：https://acl4ssr.netlify.com
 
-**ACL4SSR在线Clash等规则订阅转换**：https://acl4ssr.netlify.com
+​	**项目镜像**：https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@latest/
 
-**项目镜像**：https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@latest/
-
-**项目地址**：https://github.com/ACL4SSR/ACL4SSR
+​	**项目地址**：https://github.com/ACL4SSR/ACL4SSR
 
 
 
@@ -24,7 +23,7 @@
 
 ​	主要有去广告hosts、去广告的DNS、SSR的ACL、PAC、Clash和Surge等方式。
 
-​	**优点： ** 效率高、速度快、对设备支持度非常广
+​	**优点：** 效率高、速度快、对设备支持度非常广
 
 ​	**缺点：**  屏蔽效率不高，遇见广告内容和正常内容共用一个域名的没辙
 
@@ -36,7 +35,7 @@
 
 ​	只要有ABP、AdGuard 。
 
-​	**优点： ** 屏蔽力度细、可以较好的区分同一域名的广告链接和正常链接，防止误屏蔽
+​	**优点：** 屏蔽力度细、可以较好的区分同一域名的广告链接和正常链接，防止误屏蔽
 
 ​	**缺点：** 效率一般，对HTTP请求过滤比较好，HTTPS则需要配合中间人攻击(MITM)解密流量才能进行破解
 
