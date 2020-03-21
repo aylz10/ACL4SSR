@@ -8323,6 +8323,7 @@
 (^|\.)routerlogin\.com$
 (^|\.)tendawifi\.com$
 (^|\.)zte\.home$
+(^|\.)router\.asus\.com$
 
 #GFWList IP start
 85.17.73.31
