@@ -775,6 +775,7 @@
 (^|\.)routerlogin\.com$
 (^|\.)tendawifi\.com$
 (^|\.)zte\.home$
+(^|\.)router\.asus\.com$
 
 ::ffff:0:0:0:0/1
 ::ffff:128:0:0:0/1
