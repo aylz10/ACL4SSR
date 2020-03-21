@@ -1,7 +1,7 @@
 # 广告列表 adblock rules
-# 内容：BanEasyList列表，BanEasyList + BanEasyListChina
+# 内容：BanEasyList列表，包含ABP中的 EasyList + EasyListChina 内容
 # 来源：https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
-# 更新：2020-03-21 21:08:39
+# 更新：2020-03-21 21:15:50
 # 数量：6247条
 
 DOMAIN-SUFFIX,0024aaaa.com
