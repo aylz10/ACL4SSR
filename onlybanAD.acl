@@ -493,7 +493,7 @@
 (^|\.)u\.ucfly\.com$
 
 # Weifeng
-(^|\.)aoodoo\.feng\.com$
+(^|\.)(aoodoo|push|yes1)\.feng\.com$
 (^|\.)fengbuy\.com$
 (^|\.)push\.feng\.com$
 (^|\.)we\.tm$
@@ -561,7 +561,6 @@
 (^|\.)dotcounter\.douyutv\.com$
 
 # Fenghuang 凤凰TV
-(^|\.)(aoodoo|push|yes1)\.feng\.com$
 (^|\.)(game|stadig)\.ifeng\.com$
 (^|\.)api\.newad\.ifeng\.com$
 (^|\.)exp\.3g\.ifeng\.com$
@@ -750,7 +749,6 @@
 (^|\.)ad\.unimhk\.com$
 (^|\.)adhome\.1fangchan\.com$
 (^|\.)adm\.easou\.com$
-(^|\.)adm\d\.autoimg\.cn$
 (^|\.)ads\.feedly\.com$
 (^|\.)ads\.genieessp\.com$
 (^|\.)ads\.linkedin\.com$
@@ -868,7 +866,6 @@
 (^|\.)agrant\.cn$
 (^|\.)agrantsem\.com$
 (^|\.)aihaoduo\.cn$
-(^|\.)airpush\.com$
 (^|\.)ajapk\.com$
 (^|\.)allyes\.cn$
 (^|\.)allyes\.com$
@@ -1012,7 +1009,6 @@
 (^|\.)keyrun\.cn$
 (^|\.)kmd365\.com$
 (^|\.)krux\.net$
-(^|\.)leadboltads\.net$
 (^|\.)lnk0\.com$
 (^|\.)lnk8\.cn$
 (^|\.)localytics\.com$
@@ -1226,7 +1222,6 @@
 (^|\.)airpush\.com$
 (^|\.)am15\.net$
 (^|\.)amobee\.com$
-(^|\.)appadhoc\.com$
 (^|\.)appier\.net$
 (^|\.)applift\.com$
 (^|\.)apsalar\.com$
@@ -1262,7 +1257,6 @@
 (^|\.)flurry\.com$
 (^|\.)gosquared\.com$
 (^|\.)gtags\.net$
-(^|\.)guomob\.com$
 (^|\.)heyzap\.com$
 (^|\.)histats\.com$
 (^|\.)hitslink\.com$
