@@ -1,8 +1,8 @@
 # 广告列表 adblock rules
 # 内容：EasyPrivacy列表，隐私保护，屏蔽隐私追踪
 # 来源：https://easylist-downloads.adblockplus.org/easyprivacy.txt
-# 更新：2020-03-28 11:22:02
-# 数量：2515条
+# 更新：2020-03-28 22:26:31
+# 数量：2518条
 
 DOMAIN-SUFFIX,0sbm.consobaby.co.uk
 DOMAIN-SUFFIX,0x1f4b0.com
@@ -1159,6 +1159,7 @@ DOMAIN-SUFFIX,logstat.caixin.com
 DOMAIN-SUFFIX,logx.mtime.cn
 DOMAIN-SUFFIX,logx.mtime.com
 DOMAIN-SUFFIX,logx.optimizely.com
+DOMAIN-SUFFIX,lore.circulate.com
 DOMAIN-SUFFIX,loxodo-analytics.ext.nile.works
 DOMAIN-SUFFIX,lslmetrics.djlmgdigital.com
 DOMAIN-SUFFIX,lt.tritondigital.com
@@ -1328,6 +1329,7 @@ DOMAIN-SUFFIX,oxifwsabgd.nzz.ch
 DOMAIN-SUFFIX,p-log.ykimg.com
 DOMAIN-SUFFIX,p.adbrn.com
 DOMAIN-SUFFIX,p.aty.sohu.com
+DOMAIN-SUFFIX,p.eyebuydirect-cmr.net
 DOMAIN-SUFFIX,p.gazeta.pl
 DOMAIN-SUFFIX,p.milliyet.com.tr
 DOMAIN-SUFFIX,p.pagesjaunes.fr
@@ -1831,6 +1833,7 @@ DOMAIN-SUFFIX,stats.digg.com
 DOMAIN-SUFFIX,stats.digital-natives.de
 DOMAIN-SUFFIX,stats.dnaindia.com
 DOMAIN-SUFFIX,stats.edicy.com
+DOMAIN-SUFFIX,stats.extremetech.com
 DOMAIN-SUFFIX,stats.eyeviewdigital.com
 DOMAIN-SUFFIX,stats.fd.nl
 DOMAIN-SUFFIX,stats.fittkaumaass.de
