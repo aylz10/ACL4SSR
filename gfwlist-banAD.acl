@@ -1,6 +1,6 @@
 #**********************************************************************
-# 03.26
-# 2020年3月26日19:42:54
+# 03.28
+# 2020年3月28日11:14:41
 # 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
 #
@@ -624,27 +624,19 @@
 # QQ Live
 (^|\.)aiseet\.aa\.atianqi\.com$
 (^|\.)aiseet\.atianqi\.com$
+(^|\.)btrace\.video\.qq\.com$
 (^|\.)c\.l\.qq\.com$
 (^|\.)dp3\.qq\.com$
-(^|\.)livep\.l\.aiseet\.atianqi\.com$
 (^|\.)livep\.l\.qq\.com$
-(^|\.)lives\.l\.aiseet\.atianqi\.com$
 (^|\.)lives\.l\.qq\.com$
 (^|\.)livew\.l\.qq\.com$
 (^|\.)mcgi\.v\.qq\.com$
 (^|\.)mdevstat\.qqlive\.qq\.com$
-(^|\.)monitor-uu\.play\.aiseet\.atianqi\.com$
-(^|\.)news-l\.play\.aiseet\.atianqi\.com$
 (^|\.)omgmta1\.qq\.com$
-(^|\.)otheve\.play\.aiseet\.atianqi\.com$
-(^|\.)othstr\.play\.aiseet\.atianqi\.com$
-(^|\.)p-l\.play\.aiseet\.atianqi\.com$
 (^|\.)p\.l\.qq\.com$
-(^|\.)sdkconfig\.play\.aiseet\.atianqi\.com$
-(^|\.)t-l\.play\.aiseet\.atianqi\.com$
+(^|\.)rcgi\.video\.qq\.com$
 (^|\.)t\.l\.qq\.com$
 (^|\.)u\.l\.qq\.com$
-(^|\.)vv\.play\.aiseet\.atianqi\.com$
 
 # Youku & Tudou
 (^|\.)(actives|dmapp|hz|iyes|l|lstat|lvip|msg|mobilemsg|myes|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\.youku\.com$
