@@ -1,7 +1,7 @@
 # 广告列表 adblock rules
 # 内容：EasyPrivacy列表，隐私保护，屏蔽隐私追踪
 # 来源：https://easylist-downloads.adblockplus.org/easyprivacy.txt
-# 更新：2020-03-26 19:42:12
+# 更新：2020-03-28 11:22:02
 # 数量：2515条
 
 DOMAIN-SUFFIX,0sbm.consobaby.co.uk
@@ -224,6 +224,7 @@ DOMAIN-SUFFIX,analytics.themarketiq.com
 DOMAIN-SUFFIX,analytics.thenest.com
 DOMAIN-SUFFIX,analytics.thenewslens.com
 DOMAIN-SUFFIX,analytics.thetab.com
+DOMAIN-SUFFIX,analytics.tiktok.com
 DOMAIN-SUFFIX,analytics.tio.ch
 DOMAIN-SUFFIX,analytics.tout.com
 DOMAIN-SUFFIX,analytics.tradedoubler.com
@@ -1931,7 +1932,6 @@ DOMAIN-SUFFIX,sugar.gameforge.com
 DOMAIN-SUFFIX,sugs.m.sm.cn
 DOMAIN-SUFFIX,survey.interquest.com
 DOMAIN-SUFFIX,surveys.cnet.com
-DOMAIN-SUFFIX,svc.dynamics.com
 DOMAIN-SUFFIX,swindonadvertiser-gb.swindonadvertiser.co.uk
 DOMAIN-SUFFIX,sy.amebame.com
 DOMAIN-SUFFIX,sy.ameblo.jp

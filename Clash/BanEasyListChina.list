@@ -1,8 +1,8 @@
 # 广告列表 adblock rules
 # 内容：EasyListChina列表，只包含ABP中的 EasyListChina 内容
 # 来源：https://easylist-downloads.adblockplus.org/easylistchina.txt
-# 更新：2020-03-26 19:42:02
-# 数量：4919条
+# 更新：2020-03-28 11:21:51
+# 数量：4926条
 
 DOMAIN-SUFFIX,0024aaaa.com
 DOMAIN-SUFFIX,003store.com
@@ -412,6 +412,7 @@ DOMAIN-SUFFIX,5a8p12.cn
 DOMAIN-SUFFIX,5dian.org
 DOMAIN-SUFFIX,5dydk.com
 DOMAIN-SUFFIX,5eln.cn
+DOMAIN-SUFFIX,5hytr.xyz
 DOMAIN-SUFFIX,5imoney.com
 DOMAIN-SUFFIX,5jcom.com.cn
 DOMAIN-SUFFIX,5kmm.top
@@ -638,7 +639,6 @@ DOMAIN-SUFFIX,a.shenchuang.com
 DOMAIN-SUFFIX,a.thn21.com
 DOMAIN-SUFFIX,a.tiyuxiu.com
 DOMAIN-SUFFIX,a.tvsou.com
-DOMAIN-SUFFIX,a.umilu.com
 DOMAIN-SUFFIX,a.wanzhuang.com
 DOMAIN-SUFFIX,a.wifi33.com
 DOMAIN-SUFFIX,a.xixiyishu.com
@@ -892,6 +892,7 @@ DOMAIN-SUFFIX,axizb.cn
 DOMAIN-SUFFIX,axkxy.com
 DOMAIN-SUFFIX,axsrq.cn
 DOMAIN-SUFFIX,axuns.com
+DOMAIN-SUFFIX,axzav.cn
 DOMAIN-SUFFIX,aykcic.com
 DOMAIN-SUFFIX,ayues.com
 DOMAIN-SUFFIX,b.kouke5.com
@@ -963,6 +964,7 @@ DOMAIN-SUFFIX,bd1.dopa.com
 DOMAIN-SUFFIX,bd1.flfgw.cn
 DOMAIN-SUFFIX,bd1.jinbaozy.com
 DOMAIN-SUFFIX,bd1.pipaw.com
+DOMAIN-SUFFIX,bd1.qcjslm.com
 DOMAIN-SUFFIX,bd1.sosg.net
 DOMAIN-SUFFIX,bd1.szhk.com
 DOMAIN-SUFFIX,bd1.xiby.cn
@@ -1063,6 +1065,7 @@ DOMAIN-SUFFIX,blossommo.com
 DOMAIN-SUFFIX,bmfwwz.top
 DOMAIN-SUFFIX,bmgan.com
 DOMAIN-SUFFIX,bmuju.com
+DOMAIN-SUFFIX,bnetds.cn
 DOMAIN-SUFFIX,bninc2.cn
 DOMAIN-SUFFIX,bnq86.com
 DOMAIN-SUFFIX,bnzxc.xyz
@@ -1077,6 +1080,7 @@ DOMAIN-SUFFIX,bosatria.cn
 DOMAIN-SUFFIX,bosiwangzi.cn
 DOMAIN-SUFFIX,boweineng.cn
 DOMAIN-SUFFIX,boyueguoji.com
+DOMAIN-SUFFIX,bozhixiang.top
 DOMAIN-SUFFIX,bp776.com
 DOMAIN-SUFFIX,bpdffh.cn
 DOMAIN-SUFFIX,bqhnj.cn
@@ -1942,6 +1946,7 @@ DOMAIN-SUFFIX,gky73.cn
 DOMAIN-SUFFIX,glasszz.com
 DOMAIN-SUFFIX,globbiz.cn
 DOMAIN-SUFFIX,glpen08.com
+DOMAIN-SUFFIX,glrcy.cn
 DOMAIN-SUFFIX,glvej.com
 DOMAIN-SUFFIX,gm682.com
 DOMAIN-SUFFIX,gmxyorg.cn
@@ -2787,6 +2792,7 @@ DOMAIN-SUFFIX,lesanmo.top
 DOMAIN-SUFFIX,leshigov.cn
 DOMAIN-SUFFIX,let83.cn
 DOMAIN-SUFFIX,letaojuan68.com
+DOMAIN-SUFFIX,lexyhome.com
 DOMAIN-SUFFIX,leztc.com
 DOMAIN-SUFFIX,lfcepgb.cn
 DOMAIN-SUFFIX,lfdydk.com
@@ -3278,6 +3284,7 @@ DOMAIN-SUFFIX,oul78c.cn
 DOMAIN-SUFFIX,oulvtrip.com
 DOMAIN-SUFFIX,oumazg.com
 DOMAIN-SUFFIX,overlordtea.cn
+DOMAIN-SUFFIX,owusxlr.cn
 DOMAIN-SUFFIX,p.7060.la
 DOMAIN-SUFFIX,p.zol-img.com.cn
 DOMAIN-SUFFIX,p1.zhongyoo.com
