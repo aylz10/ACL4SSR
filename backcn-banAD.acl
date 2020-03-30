@@ -1883,9 +1883,13 @@
 (^|\.)zmzfile\.com$
 
 # Private Tracker
+(^|\.)\w*announce\w*\.\w*$
+(^|\.)\w*torrent\w*\.\w*$
+(^|\.)\w*tracker\w*\.\w*$
 (^|\.)animetorrents\.me$
 (^|\.)awesome-hd\.me$
 (^|\.)beitai\.pt$
+(^|\.)bittorrent\.com$
 (^|\.)broadcasthe\.net$
 (^|\.)chdbits\.co$
 (^|\.)classix-unlimited\.co\.uk$

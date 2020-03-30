@@ -339,6 +339,9 @@ DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
 
 # Private Tracker
+DOMAIN-KEYWORD,announce
+DOMAIN-KEYWORD,torrent
+DOMAIN-KEYWORD,tracker
 DOMAIN-SUFFIX,animetorrents.me
 DOMAIN-SUFFIX,awesome-hd.me
 DOMAIN-SUFFIX,beitai.pt
