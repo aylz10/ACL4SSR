@@ -1,6 +1,6 @@
 # 内容：国外媒体列表
-# 更新：2020-04-01 00:25:05
-# 数量：246条
+# 更新：2020-04-01 00:43:16
+# 数量：242条
 
 # ABC
 DOMAIN-SUFFIX,edgedatg.com
@@ -100,17 +100,11 @@ DOMAIN,edge.api.brightcove.com
 DOMAIN,videos-f.jwpsrv.com
 DOMAIN-SUFFIX,encoretvb.com
 
-# Fox
-USER-AGENT,FOX%20NOW*
-DOMAIN-SUFFIX,fox.com
-DOMAIN-SUFFIX,foxdcg.com
-DOMAIN-SUFFIX,theplatform.com
-DOMAIN-SUFFIX,uplynk.com
-
 # Fox Now
 USER-AGENT,FOX%20NOW*
 DOMAIN-SUFFIX,fox.com
 DOMAIN-SUFFIX,foxdcg.com
+DOMAIN-SUFFIX,theplatform.com
 DOMAIN-SUFFIX,uplynk.com
 
 # Fox+
