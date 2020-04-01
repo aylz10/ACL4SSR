@@ -1,8 +1,8 @@
 # 广告列表 adblock rules
 # 内容：EasyPrivacy列表，隐私保护，屏蔽隐私追踪
 # 来源：https://easylist-downloads.adblockplus.org/easyprivacy.txt
-# 更新：2020-03-28 22:26:31
-# 数量：2518条
+# 更新：2020-04-01 20:41:53
+# 数量：2522条
 
 DOMAIN-SUFFIX,0sbm.consobaby.co.uk
 DOMAIN-SUFFIX,0x1f4b0.com
@@ -754,6 +754,7 @@ DOMAIN-SUFFIX,ea.vente-unique.lu
 DOMAIN-SUFFIX,ea.warnerbros.fr
 DOMAIN-SUFFIX,ebay.northernhost.com
 DOMAIN-SUFFIX,eclick.baidu.com
+DOMAIN-SUFFIX,ecomm.events
 DOMAIN-SUFFIX,edge.sqweb.com
 DOMAIN-SUFFIX,edmi.nextinpact.com
 DOMAIN-SUFFIX,edw.edmunds.com
@@ -768,6 +769,7 @@ DOMAIN-SUFFIX,emng.libero.it
 DOMAIN-SUFFIX,encoderfarmstatsnew.servicebus.windows.net
 DOMAIN-SUFFIX,encoding.ovh
 DOMAIN-SUFFIX,engage-cdn.schibsted.media
+DOMAIN-SUFFIX,engage.wixapps.net
 DOMAIN-SUFFIX,engagefront.theweathernetwork.com
 DOMAIN-SUFFIX,enlightenment.secureshoppingbasket.com
 DOMAIN-SUFFIX,ens.luzernerzeitung.ch
@@ -1019,6 +1021,7 @@ DOMAIN-SUFFIX,imp-media-lab.thenewslens.com
 DOMAIN-SUFFIX,imp.ad-plus.cn
 DOMAIN-SUFFIX,imp.go.sohu.com
 DOMAIN-SUFFIX,imp.optaim.com
+DOMAIN-SUFFIX,imp.pvnsolutions.com
 DOMAIN-SUFFIX,impress.vcita.com
 DOMAIN-SUFFIX,imx.comedycentral.com
 DOMAIN-SUFFIX,infinityid.condenastdigital.com
@@ -2055,6 +2058,7 @@ DOMAIN-SUFFIX,teralog.techhub.co.kr
 DOMAIN-SUFFIX,tesla.oscaro.com
 DOMAIN-SUFFIX,testcddc.atclouddev.net
 DOMAIN-SUFFIX,tf.360.cn
+DOMAIN-SUFFIX,theargus-gb.theargus.co.uk
 DOMAIN-SUFFIX,thenational-gb.thenational.scot
 DOMAIN-SUFFIX,thetradedesk-tags.s3.amazonaws.com
 DOMAIN-SUFFIX,timeslogtn.timesnow.tv

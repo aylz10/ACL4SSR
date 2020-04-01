@@ -403,7 +403,6 @@ cfw-bypass:
   - "*.mi-img.com"
   - "*.mi.com"
   - "*.miui.com"
-  - "*.miwifi.com"
   - "*.xiaomi.com"
   - "*.xiaomi.net"
   - "*.xiaomicp.com"
@@ -480,6 +479,7 @@ cfw-bypass:
   - "*.tencent.com"
   - "*.tencentmind.com"
   - "*.tenpay.com"
+  - "*.wechat.com"
   - "*.weixin.com"
   - "*.weiyun.com"
   # Vip 唯品会
@@ -504,6 +504,9 @@ cfw-bypass:
   - "*.zmzapi.net"
   - "*.zmzfile.com"
   # Private Tracker
+  - "*announce*"
+  - "*torrent*"
+  - "*tracker*"
   - "*.animetorrents.me"
   - "*.awesome-hd.me"
   - "*.beitai.pt"
@@ -576,6 +579,7 @@ cfw-bypass:
   - "*.c-ctrip.com"
   - "*.camera360.com"
   - "*.cdnmama.com"
+  - "*.chaoxing.com"
   - "*.che168.com"
   - "*.chinacache.net"
   - "*.chinaso.com"
