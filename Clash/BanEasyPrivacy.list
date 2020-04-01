@@ -1,7 +1,7 @@
 # 广告列表 adblock rules
 # 内容：EasyPrivacy列表，隐私保护，屏蔽隐私追踪
 # 来源：https://easylist-downloads.adblockplus.org/easyprivacy.txt
-# 更新：2020-04-01 20:41:53
+# 更新：2020-04-01 22:37:54
 # 数量：2522条
 
 DOMAIN-SUFFIX,0sbm.consobaby.co.uk
@@ -16,7 +16,6 @@ DOMAIN-SUFFIX,6ddc.tartine-et-chocolat.com
 DOMAIN-SUFFIX,6pal.consobaby.com
 DOMAIN-SUFFIX,7lbd4.armandthiery.fr
 DOMAIN-SUFFIX,7mx.eider.com
-DOMAIN-SUFFIX,91.196.216.64
 DOMAIN-SUFFIX,913nd.dieti-natura.es
 DOMAIN-SUFFIX,a.20minutes.fr
 DOMAIN-SUFFIX,a.mobify.com
@@ -2526,3 +2525,4 @@ DOMAIN-SUFFIX,zs.dhl.de
 DOMAIN-SUFFIX,zsi7.destinia.do
 DOMAIN-SUFFIX,zyq2.destinia.sk
 DOMAIN-SUFFIX,zz.bdstatic.com
+IP-CIDR,91.196.216.64/32,no-resolve
