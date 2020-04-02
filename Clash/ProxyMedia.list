@@ -1,5 +1,5 @@
 # 内容：国外媒体列表
-# 更新：2020-04-01 00:43:16
+# 更新：2020-04-02 21:48:57
 # 数量：242条
 
 # ABC
@@ -277,8 +277,8 @@ DOMAIN-SUFFIX,spoti.fi
 DOMAIN-SUFFIX,spotify.com
 
 # TIDAL
-USER-AGENT,TIDAL*dia
-DOMAIN-SUFFIX,tidal.comdia
+USER-AGENT,TIDAL*
+DOMAIN-SUFFIX,tidal.com
 
 # TaiWanGood
 USER-AGENT,TaiwanGood*

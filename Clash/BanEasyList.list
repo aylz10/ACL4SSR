@@ -1,8 +1,8 @@
 # 广告列表 adblock rules
 # 内容：EasyList列表，包含ABP中的 EasyList + EasyListChina 内容
 # 来源：https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
-# 更新：2020-04-01 22:37:52
-# 数量：6352条
+# 更新：2020-04-02 21:50:26
+# 数量：6355条
 
 DOMAIN-SUFFIX,0024aaaa.com
 DOMAIN-SUFFIX,003store.com
@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,0313413.com
 DOMAIN-SUFFIX,0316dieroxiemzfjwmapk.xyz
 DOMAIN-SUFFIX,03196688.com
 DOMAIN-SUFFIX,0323wqpioutyuencsamxsd.xyz
+DOMAIN-SUFFIX,0330vsdgdwer.xyz
 DOMAIN-SUFFIX,0351dvd.cn
 DOMAIN-SUFFIX,0377shujuhuifu.top
 DOMAIN-SUFFIX,0451106.com
@@ -870,6 +871,7 @@ DOMAIN-SUFFIX,aishiguolong.com
 DOMAIN-SUFFIX,aishowbger.com
 DOMAIN-SUFFIX,aiwen.cc
 DOMAIN-SUFFIX,aiyyu.com
+DOMAIN-SUFFIX,aj2073.online
 DOMAIN-SUFFIX,ajaxcdn.org
 DOMAIN-SUFFIX,ajiez.com
 DOMAIN-SUFFIX,ajkdg3.xyz
@@ -5730,6 +5732,7 @@ DOMAIN-SUFFIX,xingyaoapi.com
 DOMAIN-SUFFIX,xinji2.com
 DOMAIN-SUFFIX,xinju.cc
 DOMAIN-SUFFIX,xinlongrubber.com
+DOMAIN-SUFFIX,xinray.net
 DOMAIN-SUFFIX,xinterface.cn
 DOMAIN-SUFFIX,xinuocp666.com
 DOMAIN-SUFFIX,xinyijiasc.cn

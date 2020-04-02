@@ -1,8 +1,8 @@
 # 广告列表 adblock rules
 # 内容：EasyPrivacy列表，隐私保护，屏蔽隐私追踪
 # 来源：https://easylist-downloads.adblockplus.org/easyprivacy.txt
-# 更新：2020-04-01 22:37:54
-# 数量：2522条
+# 更新：2020-04-02 21:50:28
+# 数量：2526条
 
 DOMAIN-SUFFIX,0sbm.consobaby.co.uk
 DOMAIN-SUFFIX,0x1f4b0.com
@@ -768,7 +768,6 @@ DOMAIN-SUFFIX,emng.libero.it
 DOMAIN-SUFFIX,encoderfarmstatsnew.servicebus.windows.net
 DOMAIN-SUFFIX,encoding.ovh
 DOMAIN-SUFFIX,engage-cdn.schibsted.media
-DOMAIN-SUFFIX,engage.wixapps.net
 DOMAIN-SUFFIX,engagefront.theweathernetwork.com
 DOMAIN-SUFFIX,enlightenment.secureshoppingbasket.com
 DOMAIN-SUFFIX,ens.luzernerzeitung.ch
@@ -822,6 +821,7 @@ DOMAIN-SUFFIX,events.air.tv
 DOMAIN-SUFFIX,events.antenna.is
 DOMAIN-SUFFIX,events.apester.com
 DOMAIN-SUFFIX,events.avantisvideo.com
+DOMAIN-SUFFIX,events.brightline.tv
 DOMAIN-SUFFIX,events.chaordicsystems.com
 DOMAIN-SUFFIX,events.demoup.com
 DOMAIN-SUFFIX,events.godaddy.com
@@ -953,6 +953,7 @@ DOMAIN-SUFFIX,glogger.inspcloud.com
 DOMAIN-SUFFIX,gmonitor.aliimg.com
 DOMAIN-SUFFIX,gnar.grammarly.com
 DOMAIN-SUFFIX,go.optifuze.com
+DOMAIN-SUFFIX,go.techtarget.com
 DOMAIN-SUFFIX,gobba.myeffect.net
 DOMAIN-SUFFIX,google-analytics.com/batch
 DOMAIN-SUFFIX,google-analytics.com/internal/collect
@@ -2366,6 +2367,7 @@ DOMAIN-SUFFIX,trk.flazio.com
 DOMAIN-SUFFIX,trk.freepik.com
 DOMAIN-SUFFIX,trk.m.libero.it
 DOMAIN-SUFFIX,trk.sele.co
+DOMAIN-SUFFIX,trk.techtarget.com
 DOMAIN-SUFFIX,trk.vindicosuite.com
 DOMAIN-SUFFIX,trowel.twitch.tv
 DOMAIN-SUFFIX,tru.webelapp.com
@@ -2379,6 +2381,7 @@ DOMAIN-SUFFIX,ttauri.laptopmag.com
 DOMAIN-SUFFIX,ttauri.livescience.com
 DOMAIN-SUFFIX,ttauri.tomsguide.com
 DOMAIN-SUFFIX,ttauri.tomshardware.com
+DOMAIN-SUFFIX,ttauri.whathifi.com
 DOMAIN-SUFFIX,ttdetect.staticimgfarm.com
 DOMAIN-SUFFIX,tvl8.supdecreation.com
 DOMAIN-SUFFIX,tw.i.hulu.com
@@ -2401,6 +2404,7 @@ DOMAIN-SUFFIX,urtracker.q-sis.de
 DOMAIN-SUFFIX,useg.nextdigital.com.hk
 DOMAIN-SUFFIX,user-metrics.onthemarket.com
 DOMAIN-SUFFIX,userfly.com
+DOMAIN-SUFFIX,users.techtarget.com
 DOMAIN-SUFFIX,usersegment.wpdigital.net
 DOMAIN-SUFFIX,utrack.hexun.com
 DOMAIN-SUFFIX,uue2.destinia.ir
