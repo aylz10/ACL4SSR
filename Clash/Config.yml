@@ -62,7 +62,7 @@ experimental:
 dns:
   enable: true # 是否启用dns false
   ipv6: false
-  listen: 0.0.0.0:53
+  listen: 0.0.0.0:1053
   enhanced-mode: fake-ip
   #fake-ip-range: 198.18.0.1/16 #
   #fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
