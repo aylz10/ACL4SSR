@@ -1,12 +1,14 @@
 # 直连列表
 
 # MyList
+DOMAIN-SUFFIX,13th.tech
 DOMAIN-SUFFIX,423down.com
 DOMAIN-SUFFIX,bitwarden.com
 DOMAIN-SUFFIX,chaipip.com
 DOMAIN-SUFFIX,hrtsea.com
 DOMAIN-SUFFIX,laomo.me
 DOMAIN-SUFFIX,mpyit.com
+DOMAIN-SUFFIX,qupu123.com
 
 # CN域名直连
 DOMAIN-SUFFIX,cn
