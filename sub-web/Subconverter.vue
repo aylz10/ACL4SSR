@@ -12,7 +12,7 @@
             <svg-icon class="youguan" icon-class="youtube" style="float:right;margin-left:10px" @click="gotoYouTuBe"/>
             <svg-icon class="channel" icon-class="telegram" style="float:right;margin-left: 10px"
                       @click="gotoTgChannel"/>
-            <div style="color: red;text-align:center;font-size:15px">订 阅 转 换</div>
+            <div style="color: red;text-align:center;font-size:15px">订 阅 转 换(反向代理加密)</div>
           </div>
           <el-container>
             <el-form :model="form" label-width="80px" label-position="left" style="width: 100%">
@@ -470,7 +470,7 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
-          "默认后端": "https://bulianglin2023.dev",
+          "默认后端": defaultBackend,
           "api.v1.mk 肥羊增强型后端【vless reality+hy1+hy2】": "https://api.v1.mk",
           "sub.d1.mk 肥羊备用后端【vless reality+hy1+hy2】": "https://sub.d1.mk",
           "v.id9.cc 品云META后端,不支持本地代理【vless reality+hy1+hy2】": "https://v.id9.cc",
@@ -484,7 +484,7 @@ export default {
           "id9.cc 品云备用后端,不支持本地代理": "https://id9.cc",
         },
         backendOptions: [
-          {value: "https://bulianglin2023.dev"},
+          {value: defaultBackend},
           {value: "https://api.v1.mk"},
           {value: "https://sub.d1.mk"},
           {value: "https://v.id9.cc"},
@@ -953,7 +953,7 @@ export default {
     };
   },
   created() {
-    document.title = "在线订阅转换工具";
+    document.title = "在线订阅转换工具(反向代理加密)";
     this.isPC = this.$getOS().isPc;
   },
   mounted() {
