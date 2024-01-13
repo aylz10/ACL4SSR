@@ -12,7 +12,7 @@
             <svg-icon class="youguan" icon-class="youtube" style="float:right;margin-left:10px" @click="gotoYouTuBe"/>
             <svg-icon class="channel" icon-class="telegram" style="float:right;margin-left: 10px"
                       @click="gotoTgChannel"/>
-            <div style="color: red;text-align:center;font-size:15px">订 阅 转 换(反向代理加密)</div>
+            <div style="color: red;text-align:center;font-size:15px">订 阅 转 换</div>
           </div>
           <el-container>
             <el-form :model="form" label-width="80px" label-position="left" style="width: 100%">
@@ -473,32 +473,14 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
-          "默认后端": defaultBackend,
-          "api.v1.mk 肥羊增强型后端【vless reality+hy1+hy2】": "https://api.v1.mk",
-          "sub.d1.mk 肥羊备用后端【vless reality+hy1+hy2】": "https://sub.d1.mk",
-          "v.id9.cc 品云META后端,不支持本地代理【vless reality+hy1+hy2】": "https://v.id9.cc",
-          "api.tsutsu.one つつ-多地防失联【负载均衡+国内优化】": "https://api.tsutsu.one",
-          "www.nameless13.com nameless13提供": "https://www.nameless13.com",
-          "sub.xeton.dev subconverter作者提供": "https://sub.xeton.dev",
-          "api.wcc.best sub-web作者提供": "https://api.wcc.best",
-          "api.dler.io sub作者&lhie1提供": "https://api.dler.io",
-          "sub.maoxiongnet.com 猫熊后端": "https://sub.maoxiongnet.com",
-          "sub.id9.cc 品云专属后端,不支持本地代理": "https://sub.id9.cc",
-          "id9.cc 品云备用后端,不支持本地代理": "https://id9.cc",
+          "默认增强型后端【vless reality+hy1+hy2】": defaultBackend,
+          "备用增强型后端【vless reality+hy1+hy2】": "https://sub-lz.koyeb.app",
+
         },
         backendOptions: [
           {value: defaultBackend},
-          {value: "https://api.v1.mk"},
-          {value: "https://sub.d1.mk"},
-          {value: "https://v.id9.cc"},
-          {value: "https://api.tsutsu.one"},
-          {value: "https://www.nameless13.com"},
-          {value: "https://sub.xeton.dev"},
-          {value: "https://api.wcc.best"},
-          {value: "https://api.dler.io"},
-          {value: "https://sub.maoxiongnet.com"},
-          {value: "https://sub.id9.cc"},
-          {value: "https://id9.cc"},
+          {value: "https://sub-lz.koyeb.app"},
+
         ],
         remoteConfig: [
           {
@@ -957,7 +939,7 @@ export default {
     };
   },
   created() {
-    document.title = "在线订阅转换工具(反向代理加密)";
+    document.title = "在线订阅转换工具";
     this.isPC = this.$getOS().isPc;
   },
   mounted() {
@@ -1025,7 +1007,7 @@ export default {
       }
     },
     tanchuang() {
-      this.$alert(`<div style="text-align:center;font-size:15px"><strong><span style="font-size:20px;color: red">本站订阅转换已经支持Sing-Box以及Clash.Meta的vless reality+hysteria+hysteria2订阅转换，并且Sing-Box的JSON配置文件RAW地址可以转为其他客户端了！</span></strong></br><strong><span style="font-size:20px;color: blue">本站利用CF Worker搭建的反向代理加密订阅转换工具，通过随机化服务器地址和节点账号密码，解决用户转换订阅的隐私问题</span></strong></br><strong>支持反向代理加密转换的协议：</br>SS，SSR，vmess，trojan ，vless(取决于后端)，hysteria(取决于后端)，hysteria2(取决于后端)</strong></br><strong><span style="font-size:20px">搭建视频教程：</span><span><a href="https://youtu.be/X7CC5jrgazo" target="_blank" style="color:red;font-size:20px;text-decoration:none">点击播放</a></span></strong></br></div>`, '信息面板', {
+      this.$alert(`<div style="text-align:center;font-size:15px"><strong><span style="font-size:20px;color: red">本站订阅转换已经支持Sing-Box以及Clash.Meta的vless reality+hysteria+hysteria2订阅转换，并且Sing-Box的JSON配置文件RAW地址可以转为其他客户端了！</span></strong></br></div>`, '信息面板', {
         confirmButtonText: '确定',
         dangerouslyUseHTMLString: true,
         customClass: 'msgbox'
@@ -1083,7 +1065,7 @@ export default {
       let sourceSub = this.form.sourceSubUrl;
       sourceSub = sourceSub.replace(/(\n|\r|\n\r)/g, "|");
       this.customSubUrl =
-          defaultBackend +
+          backend +
           "/sub?target=" +
           this.form.clientType +
           "&url=" +
@@ -1170,10 +1152,6 @@ export default {
         if (this.form.tpl.singbox.ipv6 === true) {
           this.customSubUrl += "&singbox.ipv6=1";
         }
-      }
-      if (this.form.customBackend !== defaultBackend) {
-        this.customSubUrl +=
-            "&bd=" + this.form.customBackend;
       }
       this.$copyText(this.customSubUrl);
       this.$message.success("定制订阅已复制到剪贴板");
