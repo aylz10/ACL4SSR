@@ -146,6 +146,9 @@
                             <el-col :span="12">
                               <el-checkbox v-model="form.appendinfo" label="启用流量显示"></el-checkbox>
                             </el-col>
+                            <el-col :span="12">
+                              <el-checkbox v-model="form.excludeRemarks1" label="禁用排除节点"></el-checkbox>
+                            </el-col>
                           </el-row>
                           <el-row :gutter="10">
                             <el-col :span="12">
@@ -921,6 +924,7 @@ export default {
         fdn: false,
         appendType: false,
         appendinfo: true,
+        excludeRemarks1: true,
         insert: false, // 是否插入默认订阅的节点，对应配置项 insert_url
         new_name: true, // 是否使用 Clash 新字段
         tpl: {
@@ -1021,7 +1025,7 @@ export default {
       }
     },
     tanchuang() {
-      this.$alert(`<div style="text-align:center;font-size:15px"><strong><span style="font-size:20px;color: red">本站订阅转换已经支持Sing-Box以及Clash.Meta的vless reality+hysteria+hysteria2订阅转换，并且Sing-Box的JSON配置文件RAW地址可以转为其他客户端了！</span></strong></br></br></div>`, '信息面板', {
+      this.$alert(`<div style="text-align:center;font-size:15px"><strong><span style="font-size:20px;color: red">本站订阅转换已经支持Sing-Box以及Clash.Meta的vless reality+hysteria+hysteria2订阅转换，并且Sing-Box的JSON配置文件RAW地址可以转为其他客户端了！</span></strong></br><strong><span style="font-size:20px;color: blue">本站利用CF Worker搭建的反向代理加密订阅转换工具，通过随机化服务器地址和节点账号密码，解决用户转换订阅的隐私问题</span></strong></br><strong>支持反向代理加密转换的协议：</br>SS，SSR，vmess，trojan ，vless(取决于后端)，hysteria(取决于后端)，hysteria2(取决于后端)</strong></br><strong><span style="font-size:20px">搭建视频教程：</span><span><a href="https://youtu.be/X7CC5jrgazo" target="_blank" style="color:red;font-size:20px;text-decoration:none">点击播放</a></span></strong></br></div>`, '信息面板', {
         confirmButtonText: '确定',
         dangerouslyUseHTMLString: true,
         customClass: 'msgbox'
@@ -1093,6 +1097,10 @@ export default {
       if (this.form.excludeRemarks !== "") {
         this.customSubUrl +=
             "&exclude=" + encodeURIComponent(this.form.excludeRemarks);
+      }
+      else if (this.form.excludeRemarks1) {
+        this.customSubUrl +=
+            "&exclude=false";
       }
       if (this.form.includeRemarks !== "") {
         this.customSubUrl +=
