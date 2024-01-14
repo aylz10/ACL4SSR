@@ -1415,7 +1415,8 @@ export default {
               this.form.customBackend + "/version"
           )
           .then(res => {
-            this.backendVersion = res.data.replace(/backend\n$/gm, "");
+            this.backendVersion = res.data;
+            //this.backendVersion = res.data.replace(/backend\n$/gm, "");
             this.backendVersion = this.backendVersion.replace("subconverter", "SubConverter");
             //let a = this.form.customBackend.indexOf("api.v1.mk") !== -1 || this.form.customBackend.indexOf("sub.d1.mk") !== -1;
             //let b = this.form.customBackend.indexOf("127.0.0.1") !== -1;
@@ -1423,7 +1424,7 @@ export default {
             this.$message.success(`${this.backendVersion}`);
           })
           .catch(() => {
-            //this.$message.error("请求SubConverter版本号返回数据失败，该后端不可用！");
+            this.$message.error("请求SubConverter版本号失败，该后端可能不可用！");
           });
     }
   }
