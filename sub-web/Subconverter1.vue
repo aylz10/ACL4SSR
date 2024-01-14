@@ -473,13 +473,25 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
-          "默认增强型后端【vless reality+hy1+hy2】": defaultBackend,
-          "备用增强型后端【vless reality+hy1+hy2】": "https://sub-lz.koyeb.app",
+          "增强型后端1【vless reality+hy1+hy2】": defaultBackend,
+          "增强型后端2【vless reality+hy1+hy2】": "https://sub-lz.koyeb.app",
+          "增强型后端3【vless reality+hy1+hy2】": "https://sub.zeabur.app",
+          "增强型后端4【vless reality+hy1+hy2】": "https://sub1.up.railway.app",
+          "备用增强型后端1【vless reality+hy1+hy2】": "https://sub1.aylz.top",
+          "备用增强型后端2【vless reality+hy1+hy2】": "https://sub2.aylz.top",
+          "备用增强型后端3【vless reality+hy1+hy2】": "https://sub11.aylz.top",
+          "备用增强型后端4【vless reality+hy1+hy2】": "https://sub22.aylz.top",
 
         },
         backendOptions: [
           {value: defaultBackend},
           {value: "https://sub-lz.koyeb.app"},
+          {value: "https://sub.zeabur.app"},
+          {value: "https://sub1.up.railway.app"},
+          {value: "https://sub1.aylz.top"},
+          {value: "https://sub2.aylz.top"},
+          {value: "https://sub11.aylz.top"},
+          {value: "https://sub22.aylz.top"},
 
         ],
         remoteConfig: [
