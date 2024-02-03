@@ -1,62 +1,285 @@
 version = 1
 [custom]
-enable_rule_generator = false
-overwrite_original_rules = false
+enable_rule_generator = true
+overwrite_original_rules = true
 
-# Options for custom base configuration file
-clash_rule_base = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml"
-#surge_rule_base = "base/surge.conf"
-#surfboard_rule_base = "base/surfboard.conf"
-#mellow_rule_base = "base/mellow.conf"
-#quan_rule_base = "base/quan.conf"
-#quanx_rule_base = "base/quanx.conf"
-#loon_rule_base = "base/loon.conf"
-#sssub_rule_base = "base/shadowsocks_base.json"
-#singbox_rule_base = "base/singbox.json"
+clash_rule_base="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml"
 
-# Options for adding emojis
-#add_emoji = true
-#remove_old_emoji = true
-
-# Options for filtering nodes
-#include_remarks = []
-#exclude_remarks = []
-
-# for forcerule.yml
 
 [[custom_groups]]
-name = "Proxy"
+name = "🚀 节点选择"
 type = "select"
-rule = [".*", "[]AUTO", "[]DIRECT", ".*"]
-
+rule = ["[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列", ".*"]
 [[custom_groups]]
-name = "AUTO"
-type = "url-test"
+name = "✈ 手动选择"
+type = "select"
+rule = ["[]DIRECT", "[]REJECT", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列", ".*"]
+[[custom_groups]]
+name = "⚖️ 负载均衡-轮询"
+type = "load-balance"
+url = "http://www.google.com/generate_204"
+interval = "300"
+strategy = "round-robin"
 rule = [".*"]
-url = "http://www.gstatic.com/generate_204"
-interval = 300
-
 [[custom_groups]]
-name = "google"
-type = "select"
+name = "⚖️ 负载均衡-散列"
+type = "load-balance"
+url = "http://www.google.com/generate_204"
+interval = "300"
+strategy = "consistent-hashing"
 rule = [".*"]
-
 [[custom_groups]]
-name = "netflix"
+name = "🛹 CloudFlare直连"
 type = "select"
-rule = [".*"]
-
+rule = ["[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
 [[custom_groups]]
-name = "动画疯"
+name = "⚡ MegaUp直连"
 type = "select"
-rule = ["(深台|彰化|新北|台)"]
+rule = ["[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🀄 C站直连"
+type = "select"
+rule = ["[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🛑 share微云ARM弹窗"
+type = "select"
+rule = ["[]REJECT", "[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "💮 漫画直连,"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🌸 漫画代理"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🎯 全球直连"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🍃 自定直连"
+type = "select"
+rule = ["[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🔰 自定代理"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🐟 漏网之鱼"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🎥 NETFLIX"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "(Netflix|NF)", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "📺 巴哈姆特"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "(台)", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🌍 国外媒体"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🌏 国内媒体"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "📢 谷歌FCM"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🧿 GoogleCN"
+type = "select"
+rule = ["[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🍎 苹果服务"
+type = "select"
+rule = ["[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "Ⓜ️ 微软Bing"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "Ⓜ️ 微软云盘"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "Ⓜ️ 微软服务"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "📲 电报消息"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "💬 OpenAi"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "📹 油管视频"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "📺 哔哩哔哩"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🎮 游戏平台"
+type = "select"
+rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🍃 应用净化"
+type = "select"
+rule = ["[]REJECT", "[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🛑 广告拦截-广告联盟"
+type = "select"
+rule = ["[]REJECT", "[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🛑 广告拦截-应用广告"
+type = "select"
+rule = ["[]REJECT", "[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
+[[custom_groups]]
+name = "🛑 广告拦截-EeasyList"
+type = "select"
+rule = ["[]REJECT", "[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
 
 
 
 
-#[[rulesets]]
-#import = ""
+# short names
+[[rename_node]]
+match = "中国"
+replace = "中"
+[[rename_node]]
+match = "徐州"
+replace = "徐"
+[[rename_node]]
+match = "深圳"
+replace = "深"
+[[rename_node]]
+match = "上海"
+replace = "沪"
+[[rename_node]]
+match = "广州"
+replace = "穗"
+[[rename_node]]
+match = "宁波"
+replace = "甬"
+[[rename_node]]
+match = "贵阳"
+replace = "筑"
+[[rename_node]]
+match = "武汉"
+replace = "汉"
+[[rename_node]]
+match = "南京"
+replace = "宁"
+[[rename_node]]
+match = "天津"
+replace = "津"
+[[rename_node]]
+match = "北京"
+replace = "京"
+[[rename_node]]
+match = "沈阳"
+replace = "沈"
+[[rename_node]]
+match = "江苏"
+replace = "苏"
+[[rename_node]]
+match = "浙江"
+replace = "浙"
+[[rename_node]]
+match = "安徽"
+replace = "皖"
+[[rename_node]]
+match = "福建"
+replace = "闽"
+[[rename_node]]
+match = "湖南"
+replace = "湘"
+[[rename_node]]
+match = "广东"
+replace = "粤"
+[[rename_node]]
+match = "海南"
+replace = "琼"
+[[rename_node]]
+match = "四川"
+replace = "川"
+[[rename_node]]
+match = "贵州"
+replace = "贵"
+[[rename_node]]
+match = "云南"
+replace = "云"
+[[rename_node]]
+match = "青海"
+replace = "青"
+[[rename_node]]
+match = "台湾"
+replace = "台"
+[[rename_node]]
+match = "香港"
+replace = "港"
+[[rename_node]]
+match = "澳门"
+replace = "澳"
+[[rename_node]]
+match = "美国"
+replace = "美"
+[[rename_node]]
+match = "英国"
+replace = "英"
+[[rename_node]]
+match = "加拿大"
+replace = "加"
+[[rename_node]]
+match = "法国"
+replace = "法"
+[[rename_node]]
+match = "德国"
+replace = "德"
+[[rename_node]]
+match = "瑞士"
+replace = "瑞"
+[[rename_node]]
+match = "日本"
+replace = "日"
+[[rename_node]]
+match = "韩国"
+replace = "韩"
+[[rename_node]]
+match = "芬兰"
+replace = "芬"
+[[rename_node]]
+match = "印度"
+replace = "印"
+[[rename_node]]
+match = "泰国"
+replace = "泰"
+[[rename_node]]
+match = "越南"
+replace = "越"
+[[rename_node]]
+match = "新加坡"
+replace = "新"
+[[rename_node]]
+match = "意大利"
+replace = "意"
+[[rename_node]]
+match = "菲律宾"
+replace = "菲"
+[[rename_node]]
+match = "俄罗斯"
+replace = "俄"
+[[rename_node]]
+match = "土耳其"
+replace = "土"
 
-[[template_args]]
-key = "clash.dns.port"
-value = "5353"
+# times RE
+#[[rename_node]]
+#match = '\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?'
+#replace = "$1x"
