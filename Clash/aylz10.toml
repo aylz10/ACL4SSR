@@ -221,7 +221,7 @@ name = "🛑 share微云ARM弹窗"
 type = "select"
 rule = ["[]REJECT", "[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
 [[custom_groups]]
-name = "💮 漫画直连,"
+name = "💮 漫画直连"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
 [[custom_groups]]
