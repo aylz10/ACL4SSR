@@ -6,236 +6,178 @@ overwrite_original_rules = true
 clash_rule_base="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml"
 
 
-
 [[rulesets]]
 group = "🛹 CloudFlare直连"
 ruleset="[]DOMAIN-SUFFIX,cloudflare.com"
-
 [[rulesets]]
 group = "⚡ MegaUp直连"
 ruleset="[]DOMAIN-SUFFIX,megaup.net"
-
 [[rulesets]]
 group = "🀄 C站直连"
 ruleset="[]DOMAIN-SUFFIX,cloudflarestorage.com"
-
 [[rulesets]]
 group = "🛑 share微云ARM弹窗"
 ruleset="[]DOMAIN-SUFFIX,a79h.cn"
-
 [[rulesets]]
 group = "🛑 share微云ARM弹窗"
 ruleset="[]DOMAIN-SUFFIX,share.weiyun.com"
-
 [[rulesets]]
 group = "🍃 自定直连"
 ruleset="[]DOMAIN-SUFFIX,guidedhacking.com"
-
 [[rulesets]]
 group = "🍃 自定直连"
 ruleset="[]IP-CIDR,13.76.90.217/32,no-resolve"
-
 [[rulesets]]
 group = "🍃 自定直连"
 ruleset="[]IP-CIDR,13.67.76.12/32,no-resolve"
-
 [[rulesets]]
 group = "💮 漫画直连"
 ruleset="[]DOMAIN-SUFFIX,www.manhuabei.com"
-
 [[rulesets]]
 group = "💮 漫画直连"
 ruleset="[]DOMAIN-SUFFIX,www.manhuadui.com"
-
 [[rulesets]]
 group = "💮 漫画直连"
 ruleset="[]DOMAIN-SUFFIX,www.manhuadb.com"
-
 [[rulesets]]
 group = "💮 漫画直连"
 ruleset="[]DOMAIN-SUFFIX,hamreus.com"
-
 [[rulesets]]
 group = "💮 漫画直连"
 ruleset="[]DOMAIN-SUFFIX,www.manhuagui.com"
-
 [[rulesets]]
 group = "💮 漫画直连"
 ruleset="[]DOMAIN-SUFFIX,www.vomicmh.com"
-
 [[rulesets]]
 group = "💮 漫画直连"
 ruleset="[]DOMAIN-SUFFIX,vomicmh.com"
-
 [[rulesets]]
 group = "🌸 漫画代理"
 ruleset="[]DOMAIN-SUFFIX,mangafunc.fun"
-
 [[rulesets]]
 group = "🌸 漫画代理"
 ruleset="[]DOMAIN-SUFFIX,api.manhuaren.com"
-
 [[rulesets]]
 group = "🌸 漫画代理"
 ruleset="[]DOMAIN-SUFFIX,mangaapi.manhuaren.com"
 
-
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
-
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list"
-
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
-
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"
-
 [[rulesets]]
 group = "🛑 广告拦截-广告联盟"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
-
 [[rulesets]]
 group = "🛑 广告拦截-应用广告"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
-
 [[rulesets]]
 group = "🛑 广告拦截-EeasyList"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
-
 [[rulesets]]
 group = "🛑 广告拦截-EeasyList"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list"
-
 [[rulesets]]
 group = "🍃 应用净化"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
-
 [[rulesets]]
 group = "📢 谷歌FCM"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list"
-
 [[rulesets]]
 group = "🎥 NETFLIX"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
-
 [[rulesets]]
 group = "📺 巴哈姆特"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list"
-
 [[rulesets]]
 group = "🍎 苹果服务"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
-
 [[rulesets]]
 group = "Ⓜ️ 微软Bing"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list"
-
 [[rulesets]]
 group = "Ⓜ️ 微软云盘"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list"
-
 [[rulesets]]
 group = "Ⓜ️ 微软服务"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list"
-
 [[rulesets]]
 group = "📲 电报消息"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
-
 [[rulesets]]
 group = "💬 OpenAi"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
-
 [[rulesets]]
 group = "🎮 游戏平台"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list"
-
 [[rulesets]]
 group = "🎮 游戏平台"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list"
-
 [[rulesets]]
 group = "🎮 游戏平台"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list"
-
 [[rulesets]]
 group = "🎮 游戏平台"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list"
-
 [[rulesets]]
 group = "🎮 游戏平台"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list"
-
 [[rulesets]]
 group = "📹 油管视频"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
-
 [[rulesets]]
 group = "📺 哔哩哔哩"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
-
 [[rulesets]]
 group = "📺 哔哩哔哩"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
-
 [[rulesets]]
 group = "🌍 国外媒体"
 ruleset="https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/GlobalMedia.list"
-
 [[rulesets]]
 group = "🌍 国外媒体"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
-
 [[rulesets]]
 group = "🌍 国外媒体"
 ruleset="https://raw.githubusercontent.com/aylz10/ACL4SSR/master/Clash/1.list"
-
 [[rulesets]]
 group = "🌏 国内媒体"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list"
-
 [[rulesets]]
 group = "🧿 GoogleCN"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
-
 [[rulesets]]
 group = "🚀 节点选择"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
-
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
-
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
-
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"
-
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset="https://raw.githubusercontent.com/aylz10/ACL4SSR/master/Clash/Download.list"
-
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset="[]GEOIP,LAN"
-
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset="[]GEOIP,CN"
-
 [[rulesets]]
 group = "🐟 漏网之鱼"
 ruleset="[]FINAL"
-
 
 
 
@@ -244,168 +186,136 @@ ruleset="[]FINAL"
 name = "🚀 节点选择"
 type = "select"
 rule = ["[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列", ".*"]
-
 [[custom_groups]]
 name = "✈ 手动选择"
 type = "select"
 rule = ["[]DIRECT", "[]REJECT", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列", ".*"]
-
 [[custom_groups]]
 name = "⚖️ 负载均衡-轮询"
 type = "load-balance"
 url = "http://www.google.com/generate_204"
-interval = "300"
+interval = 300
 strategy = "round-robin"
 rule = [".*"]
-
 [[custom_groups]]
 name = "⚖️ 负载均衡-散列"
 type = "load-balance"
 url = "http://www.google.com/generate_204"
-interval = "300"
+interval = 300
 strategy = "consistent-hashing"
 rule = [".*"]
-
 [[custom_groups]]
 name = "🛹 CloudFlare直连"
 type = "select"
 rule = ["[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "⚡ MegaUp直连"
 type = "select"
 rule = ["[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🀄 C站直连"
 type = "select"
 rule = ["[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🛑 share微云ARM弹窗"
 type = "select"
 rule = ["[]REJECT", "[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "💮 漫画直连,"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🌸 漫画代理"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🎯 全球直连"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🍃 自定直连"
 type = "select"
 rule = ["[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🔰 自定代理"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🐟 漏网之鱼"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🎥 NETFLIX"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "(Netflix|NF)", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "📺 巴哈姆特"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "(台)", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🌍 国外媒体"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🌏 国内媒体"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "📢 谷歌FCM"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🧿 GoogleCN"
 type = "select"
 rule = ["[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🍎 苹果服务"
 type = "select"
 rule = ["[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "Ⓜ️ 微软Bing"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "Ⓜ️ 微软云盘"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "Ⓜ️ 微软服务"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "📲 电报消息"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "💬 OpenAi"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "📹 油管视频"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "📺 哔哩哔哩"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🎮 游戏平台"
 type = "select"
 rule = ["[]🚀 节点选择", "[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🍃 应用净化"
 type = "select"
 rule = ["[]REJECT", "[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🛑 广告拦截-广告联盟"
 type = "select"
 rule = ["[]REJECT", "[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🛑 广告拦截-应用广告"
 type = "select"
 rule = ["[]REJECT", "[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列"]
-
 [[custom_groups]]
 name = "🛑 广告拦截-EeasyList"
 type = "select"
@@ -413,181 +323,137 @@ rule = ["[]REJECT", "[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]
 
 
 # short names
-
 [[rename_node]]
 match = "中国"
 replace = "中"
-
 [[rename_node]]
 match = "徐州"
 replace = "徐"
-
 [[rename_node]]
 match = "深圳"
 replace = "深"
-
 [[rename_node]]
 match = "上海"
 replace = "沪"
-
 [[rename_node]]
 match = "广州"
 replace = "穗"
-
 [[rename_node]]
 match = "宁波"
 replace = "甬"
-
 [[rename_node]]
 match = "贵阳"
 replace = "筑"
-
 [[rename_node]]
 match = "武汉"
 replace = "汉"
-
 [[rename_node]]
 match = "南京"
 replace = "宁"
-
 [[rename_node]]
 match = "天津"
 replace = "津"
-
 [[rename_node]]
 match = "北京"
 replace = "京"
-
 [[rename_node]]
 match = "沈阳"
 replace = "沈"
-
 [[rename_node]]
 match = "江苏"
 replace = "苏"
-
 [[rename_node]]
 match = "浙江"
 replace = "浙"
-
 [[rename_node]]
 match = "安徽"
 replace = "皖"
-
 [[rename_node]]
 match = "福建"
 replace = "闽"
-
 [[rename_node]]
 match = "湖南"
 replace = "湘"
-
 [[rename_node]]
 match = "广东"
 replace = "粤"
-
 [[rename_node]]
 match = "海南"
 replace = "琼"
-
 [[rename_node]]
 match = "四川"
 replace = "川"
-
 [[rename_node]]
 match = "贵州"
 replace = "贵"
-
 [[rename_node]]
 match = "云南"
 replace = "云"
-
 [[rename_node]]
 match = "青海"
 replace = "青"
-
 [[rename_node]]
 match = "台湾"
 replace = "台"
-
 [[rename_node]]
 match = "香港"
 replace = "港"
-
 [[rename_node]]
 match = "澳门"
 replace = "澳"
-
 [[rename_node]]
 match = "美国"
 replace = "美"
-
 [[rename_node]]
 match = "英国"
 replace = "英"
-
 [[rename_node]]
 match = "加拿大"
 replace = "加"
-
 [[rename_node]]
 match = "法国"
 replace = "法"
-
 [[rename_node]]
 match = "德国"
 replace = "德"
-
 [[rename_node]]
 match = "瑞士"
 replace = "瑞"
-
 [[rename_node]]
 match = "日本"
 replace = "日"
-
 [[rename_node]]
 match = "韩国"
 replace = "韩"
-
 [[rename_node]]
 match = "芬兰"
 replace = "芬"
-
 [[rename_node]]
 match = "印度"
 replace = "印"
-
 [[rename_node]]
 match = "泰国"
 replace = "泰"
-
 [[rename_node]]
 match = "越南"
 replace = "越"
-
 [[rename_node]]
 match = "新加坡"
 replace = "新"
-
 [[rename_node]]
 match = "意大利"
 replace = "意"
-
 [[rename_node]]
 match = "菲律宾"
 replace = "菲"
-
 [[rename_node]]
 match = "俄罗斯"
 replace = "俄"
-
 [[rename_node]]
 match = "土耳其"
 replace = "土"
 
 # times RE
-#
-[[rename_node]]
+#[[rename_node]]
 #match = '\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?'
 #replace = "$1x"
