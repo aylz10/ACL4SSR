@@ -189,7 +189,7 @@ rule = ["[]✈ 手动选择", "[]DIRECT", "[]⚖️ 负载均衡-轮询", "[]⚖
 [[custom_groups]]
 name = "✈ 手动选择"
 type = "select"
-rule = ["[]DIRECT", "[]REJECT", "⚖️ 负载均衡-轮询", "⚖️ 负载均衡-散列", ".*"]
+rule = ["[]DIRECT", "[]REJECT", "[]⚖️ 负载均衡-轮询", "[]⚖️ 负载均衡-散列", ".*"]
 [[custom_groups]]
 name = "⚖️ 负载均衡-轮询"
 type = "load-balance"
