@@ -141,7 +141,7 @@ group = "📺 哔哩哔哩"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
 [[rulesets]]
 group = "🌍 国外媒体"
-;ruleset="https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/GlobalMedia.list"
+ruleset="https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/GlobalMedia.list"
 [[rulesets]]
 group = "🌍 国外媒体"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
@@ -159,7 +159,7 @@ group = "🚀 节点选择"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
 [[rulesets]]
 group = "🎯 全球直连"
-;ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
+ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
 [[rulesets]]
 group = "🎯 全球直连"
 ruleset="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
