@@ -149,7 +149,9 @@ rule = ["[]REJECT", "[]DIRECT", "[]🚀 节点选择", "[]✈ 手动选择", "[]
 
 
 # short names
-
+[[rename_node]]
+match = "中国"
+replace = "中"
 [[rename_node]]
 match = "徐州"
 replace = "徐"
