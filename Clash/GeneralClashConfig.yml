@@ -64,32 +64,99 @@ experimental:
 
 dns:
   enable: true
-  ipv6: true
-  listen: 0.0.0.0:53
-  # 模式：redir-host或fake-ip
-  enhanced-mode: fake-ip 
-  fake-ip-range: 198.18.0.1/16 #
-  # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
-  fake-ip-filter: 
-     - '*.lan'
-     - localhost.ptlogin2.qq.com
+  enhanced-mode: fake-ip
   default-nameserver:
-    - 1.1.1.1
-    - 8.8.8.8
+  - 1.1.1.1
+  - 8.8.8.8
+  ipv6: true
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+#  - tls://223.5.5.5:853
+#  - https://223.6.6.6/dns-query
+#  - https://120.53.53.53/dns-query
+  fake-ip-filter:
+  - '*.lan'
+  - '*.local'
+  - dns.msftncsi.com
+  - www.msftncsi.com
+  - www.msftconnecttest.com
+  - stun.*.*.*
+  - stun.*.*
+  - miwifi.com
+  - music.163.com
+  - '*.music.163.com'
+  - '*.126.net'
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - joox.com
+  - y.qq.com
+  - '*.y.qq.com'
+  - streamoc.music.tc.qq.com
+  - mobileoc.music.tc.qq.com
+  - isure.stream.qqmusic.qq.com
+  - dl.stream.qqmusic.qq.com
+  - aqqmusic.tc.qq.com
+  - amobile.music.tc.qq.com
+  - '*.xiami.com'
+  - '*.music.migu.cn'
+  - music.migu.cn
+  - netis.cc
+  - router.asus.com
+  - repeater.asus.com
+  - routerlogin.com
+  - routerlogin.net
+  - tendawifi.com
+  - tendawifi.net
+  - tplinklogin.net
+  - tplinkwifi.net
+  - tplinkrepeater.net
+  - '*.ntp.org.cn'
+  - '*.openwrt.pool.ntp.org'
+  - '*.msftconnecttest.com'
+  - '*.msftncsi.com'
+  - localhost.ptlogin2.qq.com
+  - '*.*.*.srv.nintendo.net'
+  - '*.*.stun.playstation.net'
+  - xbox.*.*.microsoft.com
+  - '*.ipv6.microsoft.com'
+  - '*.*.xboxlive.com'
+  - speedtest.cros.wr.pvp.net
+  fake-ip-range: 198.18.0.1/16
   fallback:
-    - https://1.1.1.2/dns-query
-    - https://1.0.0.2/dns-query
-    - https://9.9.9.9/dns-query
-    - https://max.rethinkdns.com/1:-B9_A9v1-nciBTzgQBBUcyAAAGIAQA==
-    - https://sky.rethinkdns.com/1:-B9_A9v1-nciBTzgQBBUcyAAAGIAQA==
+  - https://1.1.1.2/dns-query
+  - https://1.0.0.2/dns-query
+  - https://9.9.9.9/dns-query
+  - https://max.rethinkdns.com/1:-B9_A9v1-nciBTzgQBBUcyAAAGIAQA==
+  - https://sky.rethinkdns.com/1:-B9_A9v1-nciBTzgQBBUcyAAAGIAQA==
+#  - tls://101.101.101.101:853
+#  - https://101.101.101.101/dns-query
+#  - https://public.dns.iij.jp/dns-query
+#  - https://208.67.220.220/dns-query
   fallback-filter:
+    domain:
+    - +.google.com
+    - +.facebook.com
+    - +.twitter.com
+    - +.youtube.com
+    - +.xn--ngstr-lra8j.com
+    - +.google.cn
+    - +.googleapis.cn
+    - +.googleapis.com
+    - +.gvt1.com
+    - +.paoluz.com
+    - +.paoluz.link
+    - +.paoluz.xyz
+    - +.sodacity-funk.xyz
+    - +.nloli.xyz
+    - +.jsdelivr.net
+    - +.proton.me
     geoip: true
     geoip-code: CN
     ipcidr:
-      - 240.0.0.0/4
+    - 240.0.0.0/4
+    - 0.0.0.0/32
+    - 127.0.0.1/32
 
 # 1. clash DNS 请求逻辑：
 #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
