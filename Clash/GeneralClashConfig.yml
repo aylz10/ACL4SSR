@@ -64,16 +64,18 @@ experimental:
 
 dns:
   enable: true
+  listen: :53
   ipv6: true
-  listen: 0.0.0.0:53
   # 模式：redir-host或fake-ip
   enhanced-mode: fake-ip 
-  fake-ip-range: 198.18.0.1/16 #
+  fake-ip-range: 198.18.0.1/16
   # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
   fake-ip-filter: 
      - '*.lan'
      - localhost.ptlogin2.qq.com
   default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
     - 1.1.1.1
     - 8.8.8.8
   nameserver:
