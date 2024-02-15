@@ -87,11 +87,11 @@ dns:
     - https://dns.alidns.com/dns-query
   # 专用于节点域名解析的 DNS 服务器，非必要配置项
   # 配置服务器若查询失败将使用 nameserver，非并发查询
-  proxy-server-nameserver:
-    - https://1.1.1.2/dns-query
-    - https://1.0.0.2/dns-query
-  # - https://dns.google/dns-query
-  # - tls://one.one.one.one
+  # proxy-server-nameserver:
+  #  - https://1.1.1.2/dns-query
+  #  - https://1.0.0.2/dns-query
+  #  - https://dns.google/dns-query
+  #  - tls://one.one.one.one
   fallback:
     - https://1.1.1.2/dns-query
     - https://1.0.0.2/dns-query
