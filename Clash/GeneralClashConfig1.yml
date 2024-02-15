@@ -153,7 +153,7 @@ dns:
   # 开启 DoH 支持 HTTP/3，将并发尝试
   prefer-h3: true
   # 单位：ms，内部双栈并发时，向上游查询 AAAA 时，等待 AAAA 的时间，默认 100ms
-  ipv6-timeout: 400
+  ipv6-timeout: 300
   # 专用于节点域名解析的 DNS 服务器，非必要配置项
   # 配置服务器若查询失败将使用 nameserver，非并发查询
   # proxy-server-nameserver:
