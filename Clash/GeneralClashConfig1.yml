@@ -150,6 +150,17 @@ dns:
   - tls://223.5.5.5:853
   - https://223.6.6.6/dns-query
   - https://120.53.53.53/dns-query
+  # 开启 DoH 支持 HTTP/3，将并发尝试
+  prefer-h3: true
+  # 单位：ms，内部双栈并发时，向上游查询 AAAA 时，等待 AAAA 的时间，默认 100ms
+  ipv6-timeout: 400
+  # 专用于节点域名解析的 DNS 服务器，非必要配置项
+  # 配置服务器若查询失败将使用 nameserver，非并发查询
+  # proxy-server-nameserver:
+  # - https://1.1.1.2/dns-query
+  # - https://1.0.0.2/dns-query
+  # - https://dns.google/dns-query
+  # - tls://one.one.one.one
 # 1. clash DNS 请求逻辑：
 #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
 #   (2) clash 将选取 nameserver 列表内，解析最快的结果。
