@@ -69,7 +69,7 @@ dns:
   listen: :53
   ipv6: true
   # 单位：ms，内部双栈并发时，向上游查询 AAAA 时，等待 AAAA 的时间，默认 100ms
-  ipv6-timeout: 300
+  ipv6-timeout: 400
   # 模式：redir-host或fake-ip
   enhanced-mode: fake-ip 
   fake-ip-range: 198.18.0.1/16
@@ -87,9 +87,9 @@ dns:
     - https://dns.alidns.com/dns-query
   # 专用于节点域名解析的 DNS 服务器，非必要配置项
   # 配置服务器若查询失败将使用 nameserver，非并发查询
-  proxy-server-nameserver:
-    - https://1.1.1.2/dns-query
-    - https://1.0.0.2/dns-query
+  # proxy-server-nameserver:
+  # - https://1.1.1.2/dns-query
+  # - https://1.0.0.2/dns-query
   # - https://dns.google/dns-query
   # - tls://one.one.one.one
   fallback:
