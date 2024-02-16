@@ -92,7 +92,7 @@ dns:
   # cache-algorithm: arc
   enable: true
   # 开启 DoH 支持 HTTP/3，将并发尝试
-  prefer-h3: true
+  # prefer-h3: true
   listen: :53
   ipv6: true
   # 单位：ms，内部双栈并发时，向上游查询 AAAA 时，等待 AAAA 的时间，默认 100ms
