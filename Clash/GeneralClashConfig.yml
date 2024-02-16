@@ -48,7 +48,7 @@ geo-update-interval: 24 # 更新间隔，单位：小时
 keep-alive-interval: 15
 
 profile: # 存储 select 选择记录
-  store-selected: false
+  store-selected: true
 
   # 持久化 fake-ip
   store-fake-ip: true
