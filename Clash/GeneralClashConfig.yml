@@ -89,7 +89,7 @@ experimental:
 #   'alpha.clash.dev': '::1'
 
 dns:
-  cache-algorithm: arc
+  # cache-algorithm: arc
   enable: true
   # 开启 DoH 支持 HTTP/3，将并发尝试
   prefer-h3: true
